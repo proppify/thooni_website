@@ -1,0 +1,27 @@
+.wholecontainer {
+    background-color: #23a6f0;
+}
+
+.subcontainer {
+    padding: 12px 80px 12px 80px;
+}
+
+.numberfont {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.iconwithtext {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.textandicons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+}
