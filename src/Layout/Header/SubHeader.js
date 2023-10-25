@@ -21,7 +21,9 @@ const SubHeader = () => {
             <span className='navtext'>
               <Link to='/aboutus' className='navtext'>About Us</Link>
             </span>
-            <span className='navtext'>For Business</span>
+            <span className='navtext'>
+            <Link to='/business' className='navtext'>For Business</Link>
+            </span>
             <span className='navtext'>Designer's Advice</span>
           </div>
         </Col>
