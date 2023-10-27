@@ -10,7 +10,7 @@ const SubHeader = () => {
       <Row >
         <Col xs={12} md={4}>
           <div className='logoContainer'>
-            <img src={ThooniLogo} alt='logo' className='logo' />
+          <Link to='/' className='navtext'> <img src={ThooniLogo} alt='logo' className='logo' /></Link>
           </div>
         </Col>
         <Col xs={12} md={8}>

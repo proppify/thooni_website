@@ -54,7 +54,7 @@ const Footer = () => {
             </div>
             <div className='reserved'>
                 <span className='reservedtext'>© 2023 Thooni.com. All Rights Reserved.</span>
-                <span className='reservedtext'>| Privacy| Terms of Service| Alterations and Returns</span>
+                <span className='reservedtext'> Privacy| Terms of Service| Alterations and Returns</span>
             </div>
         </div>
     )

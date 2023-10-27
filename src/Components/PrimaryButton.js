@@ -1,0 +1,29 @@
+import React from 'react';
+
+const PrimaryButton = ({ onClick, text, color }) => {
+    const styles = {
+        button: {
+            backgroundColor: color,
+            border: 'none',
+            color: 'white',
+            padding: '15px 40px 15px 40px',
+            textAlign: 'center',
+            textDecoration: 'none',
+            display: 'inline-block',
+            fontSize: '12px',
+            margin: '4px 2px',
+            cursor: 'pointer',
+            borderRadius: '5px',
+            maxWidth: '191px'
+        },
+    };
+    return (
+        <button onClick={onClick} style={styles.button}>
+            {text}
+        </button>
+    );
+};
+
+
+
+export default PrimaryButton;

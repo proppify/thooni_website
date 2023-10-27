@@ -4,9 +4,11 @@ import { HiOutlinePhone, HiOutlineMail } from 'react-icons/hi';
 import { AiOutlineInstagram } from 'react-icons/ai';
 import { BiLogoFacebookCircle, BiLogoTwitter } from 'react-icons/bi';
 import { Col, Row } from 'react-bootstrap';
+import Alert from '../../Components/Alert';
 
 const Header = () => {
-  return (
+  return (<>
+    <Alert message={'Download Thooni App for better experience and win exciting rewards'} color={'#EDF8FF'}/>
     <div className='wholecontainer'>
       <div className='subcontainer'>
         <Row >
@@ -38,6 +40,8 @@ const Header = () => {
       </div>
 
     </div>
+  </>
+
   )
 }
 
