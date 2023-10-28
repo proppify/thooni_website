@@ -7,11 +7,11 @@ const OurMission = () => {
         <div className='missionContainer'>
             <div className='ourmission1'>
                 <div className='ourmissionmenus'>
-                    <span className='missionblue'>Our Mission</span>
-                    <span className='missionsmall'>Curated Selection</span>
-                    <span className='missionsmall'>Customer Satisfaction</span>
-                    <span className='missionsmall'>Community and Inspiration</span>
-                    <span className='missionsmall'>Connect with Us</span>
+                    <h2 className='missionblue'>Our Mission</h2>
+                    <h3 className='missionsmall'>Curated Selection</h3>
+                    <h3 className='missionsmall'>Customer Satisfaction</h3>
+                    <h3 className='missionsmall'>Community and Inspiration</h3>
+                    <h3 className='missionsmall'>Connect with Us</h3>
 
                 </div>
             </div>

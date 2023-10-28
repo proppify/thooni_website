@@ -4,7 +4,7 @@ import YourStyle from './YourStyle';
 const Home = () => {
   return (
     <div>
-        <YourStyle/>
+        {/* <YourStyle/> */}
     </div>
   )
 }

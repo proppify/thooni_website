@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
 .subHeader {
     padding: 12px 80px 12px 80px;
 }
@@ -17,11 +19,14 @@
 }
 
 .navtext {
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
     font-weight: 700;
     cursor: pointer;
     color: black;
     text-decoration-line: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navalignment2 {

@@ -8,7 +8,7 @@ const Benefits = () => {
         <div className='benefitcontainer'>
             <div style={{ width: '100%' }}>
                 <Row>
-                    <Col xs={12} md={3}>
+                    <Col xs={12} md={4}>
                         <div className='benefitrow1'>
                             <span className='benefitrow1heading'>
                                 Benefits for Fashion Designers and Boutiques
@@ -19,7 +19,7 @@ const Benefits = () => {
                             </span>
                         </div>
                     </Col>
-                    <Col xs={12} md={5}>
+                    <Col xs={12} md={4}>
                         <div className='benefitrow2'>
                             <img src={Benefits1} alt='Benefits' className='benefitrow2Img' />
                         </div>

@@ -50,7 +50,7 @@ const Footer = () => {
             </Row>
             <div className='footerline2' />
             <div className='headcont'>
-                <span className='headtxt'>thooni</span>
+                <h2 className='headtxt'>thooni</h2>
             </div>
             <div className='reserved'>
                 <span className='reservedtext'>© 2023 Thooni.com. All Rights Reserved.</span>
