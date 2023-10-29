@@ -5,6 +5,8 @@ import GetItOn from '../../Assets/GetItOn.svg';
 import Twitter from '../../Assets/Twitter.svg';
 import Instagram from '../../Assets/Instagram.svg';
 import Facebook from '../../Assets/Facebook.svg';
+import { Link } from 'react-router-dom';
+
 
 const Footer = () => {
     return (
@@ -23,8 +25,8 @@ const Footer = () => {
                         <div className='exploremenus'>
                             <span className='exploremenutexts'>About Us</span>
                             <span className='exploremenutexts'>For Business</span>
-                            <span className='exploremenutexts'>Alternation & Returns</span>
-                            <span className='exploremenutexts'>FAQ's</span>
+                            <span className='exploremenutexts'>Alterations & Returns</span>
+                            <span className='exploremenutexts'>FAQ</span>
                             <span className='exploremenutexts'>Contact Us</span>
                         </div>
                     </div>
@@ -52,9 +54,16 @@ const Footer = () => {
             <div className='headcont'>
                 <h2 className='headtxt'>thooni</h2>
             </div>
-            <div className='reserved'>
-                <span className='reservedtext'>© 2023 Thooni.com. All Rights Reserved.</span>
-                <span className='reservedtext'> Privacy| Terms of Service| Alterations and Returns</span>
+            <div style={{ display: 'inline-block' }}>
+                <div className='reserved'>
+                    <span className='reservedtext'>© 2023 Thooni.com. All Rights Reserved.</span>
+                    <span className='reservedtext pointer'> 
+                    <span>
+                        <Link to='https://thooni.com/privacypolicy' target='_blank' style={{ color: 'black', textDecorationLine: 'none' }}>Privacy</Link></span> | <span>
+                        <Link to='https://thooni.com/termsofservice' target='_blank' style={{ color: 'black', textDecorationLine: 'none' }}>Terms of Service</Link></span> | <span>
+                        <Link to='https://thooni.com/returns' target='_blank' style={{ color: 'black', textDecorationLine: 'none' }}>Alterations and Returns</Link></span></span>
+                    <hr className='line' />
+                </div>
             </div>
         </div>
     )

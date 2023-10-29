@@ -6,6 +6,7 @@ const OurSaas = () => {
     return (
         <div className='bannerCard'>
             <img alt='aboutus' src={BusinessBg} className='bannerImg' />
+            <div class="businessoverlay"></div>
             <div className='bannerText'>
                 <div className='bannerCont'>
                     <span className='fonth5'>For Business</span>

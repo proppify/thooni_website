@@ -10,9 +10,9 @@ const Benefits = () => {
                 <Row>
                     <Col xs={12} md={4}>
                         <div className='benefitrow1'>
-                            <span className='benefitrow1heading'>
+                            <h5 className='benefitrow1heading'>
                                 Benefits for Fashion Designers and Boutiques
-                            </span>
+                            </h5>
                             <span className='benefitrow1subheading'>
                                 Problems trying to resolve the conflict between the
                                 two major realms of Classical physics: Newtonian mechanics
@@ -27,17 +27,17 @@ const Benefits = () => {
                     <Col xs={12} md={4}>
                         <div className='benefitrow3'>
                             <div className='benefitrow3container'>
-                                <span className='benefitrow3heading'>
+                                <h5 className='benefitrow3heading'>
                                     Choose the item you wish to personalize
-                                </span>
+                                </h5>
                                 <span className='benefitrow3subheading'>
                                     Spend less time on administrative tasks and more time on your creative pursuits.
                                 </span>
                             </div>
                             <div className='benefitrow3container'>
-                                <span className='benefitrow3heading'>
+                                <h5 className='benefitrow3heading'>
                                     Pick the Material
-                                </span>
+                                </h5>
                                 <span className='benefitrow3subheading'>
                                     Reach a global audience and grow your customer base.
                                 </span>
