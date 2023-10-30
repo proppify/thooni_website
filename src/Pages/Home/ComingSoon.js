@@ -11,10 +11,8 @@ const ComingSoon = () => {
                 <div className='comingText'>
                     <h2 className='soonText'>COMING SOON ...</h2>
                     <h3 className='soonTexth3'>XPERIENCE <span style={{color:'#23A6F0'}}>VR</span></h3>
-                    <h6 className='soonTexth6'>We have something for everyone</h6>
-                    <span className='soonTextspan' style={{width:'400px'}}>At Thooni Custom Clothing, we're all about 
-                    making your fashion dreams come true. Our talented designers and crafty creators work hard to make clothes 
-                    that are just for you</span>
+                    <h6 className='soonTexth6'>Try Before You Buy</h6>
+                    <span className='soonTextspan' style={{width:'100%'}}>Our virtual try-on technology offers a unique and immersive way to experience a product's true appearance on you. Say goodbye to the uncertainty of online shopping, and say hello to confidence and satisfaction in your purchase decisions. It's like having a virtual fitting room at your fingertips, making shopping an enjoyable and personalized experience like never before.</span>
                 </div>
             </div>
         </div>

@@ -13,7 +13,7 @@ const Features = () => {
             <div className='featureSubContainer'>
                 <div className='featureSubContainer2'>
                     <span className='featureSpanBold'>FEATURES</span>
-                    <span className='featureSpanSmall'>We have something for everyone</span>
+                    <span className='featureSpanSmall'>Unveiling Remarkable Features</span>
                     <div style={{ width: '100%' }}>
                         <Row>
                             <Col xs={12} md={6}>

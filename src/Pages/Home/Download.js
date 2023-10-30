@@ -7,8 +7,8 @@ const Download = () => {
             <div className='downloadleftContainer'>
                 <div className='downloadText'>
                     <h5 className='downloadbluetxt'>Now Thooni App on Google Playstore and Appstore</h5>
-                    <h2 className='downloadblacktxt'>Download the Thooni App
-                        for better experience
+                    <h2 className='downloadblacktxt'>Download the Thooni App<br/>
+                        for better experience <br/>
                         and win exciting rewards</h2>
                 </div>
             </div>

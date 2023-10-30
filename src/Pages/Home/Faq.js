@@ -13,29 +13,23 @@ const Faq = () => {
             <Row >
                 <Col sm={12}>
                     <div style={{ display: 'flex', alignItems: 'flex-start', marginTop: '12px' }}>
-                        <span className='faq1'>FAQ’s</span>
+                        <span className='faq1'>FAQ</span>
                     </div>
                 </Col>
                 <Col sm={12}>
                     <div style={{ display: 'flex', alignItems: 'flex-start', marginTop: '12px' }}>
-                        <h5 className='faq2'>We have something for everyone</h5>
+                        <h5 className='faq2'>Design with confidence: Expert fashio tips at your finger tips!</h5>
                     </div>
                 </Col>
                 <Col sm={8}>
                     <div style={{ display: 'flex', alignItems: 'flex-start', width: '75%' }}>
-                        <span className='faq3'>At Thooni Custom Clothing, we're all about making your fashion dreams come true. Our talented designers and crafty </span>
+                        <span className='faq3'>Would you like fashion tips while designing? Our experts are ready to assist you.</span>
                     </div>
                 </Col>
             </Row>
             <Row style={{marginTop:'30px'}}>
                 <Col sm={6}>
-                    <NewAccordion title={'We connect our customers with the best?'} content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat."/>
-                </Col>
-                <Col sm={6}>
-                    <NewAccordion title={'We connect our customers with the best?'} content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    <NewAccordion title={'How Does 3D visualization work?'} content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
                                 minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                                 aliquip ex ea commodo consequat."/>
@@ -43,41 +37,7 @@ const Faq = () => {
             </Row>
             <Row >
                 <Col sm={6}>
-                    <NewAccordion title={'We connect our customers with the best?'} content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat."/>
-                </Col>
-                <Col sm={6}>
-                    <NewAccordion title={'We connect our customers with the best?'} content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat."/>
-                </Col>
-            </Row>
-            <Row >
-                <Col sm={6}>
-                    <NewAccordion title={'We connect our customers with the best?'} content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat."/>
-                </Col>
-                <Col sm={6}>
-                    <NewAccordion title={'We connect our customers with the best?'} content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat."/>
-                </Col>
-            </Row>
-            <Row >
-                <Col sm={6}>
-                    <NewAccordion title={'We connect our customers with the best?'} content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat."/>
-                </Col>
-                <Col sm={6}>
-                    <NewAccordion title={'We connect our customers with the best?'} content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    <NewAccordion title={'Can I customize my website and app?'} content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
                                 minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                                 aliquip ex ea commodo consequat."/>

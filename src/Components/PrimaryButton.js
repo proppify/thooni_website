@@ -10,7 +10,7 @@ const PrimaryButton = ({ onClick, text, color,width }) => {
             textAlign: 'center',
             textDecoration: 'none',
             display: 'inline-block',
-            fontSize: '12px',
+            fontSize: '14px',
             margin: '4px 2px',
             cursor: 'pointer',
             borderRadius: '5px',

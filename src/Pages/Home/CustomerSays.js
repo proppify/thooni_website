@@ -50,7 +50,7 @@ const CustomerSays = () => {
     return (
         <div>
             <div style={{ width: '100%', padding: '20px' }}>
-                <h3 className='Heartxt1'>HEAR WHAT OUR CUSTOMERS SAYS</h3>
+                <h3 className='Heartxt1'>HEAR WHAT OUR CUSTOMERS SAY</h3>
                 <span className='Heartxt2'>Discover What Our Happy Customers Have to Say About Us!</span>
                 <div style={{ width: '100%', padding: '60px 0px 0px 80px', background: '#EDF8FF', height: '350px',marginTop:'25px' }}>
                     <div className="Custbanner">

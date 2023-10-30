@@ -26,7 +26,7 @@ const Benefits = () => {
                     </Col>
                     <Col xs={12} md={4}>
                         <div className='benefitrow3'>
-                            <div className='benefitrow3container'>
+                            <div className='benefitrow3container' style={{marginBottom:'22px'}}>
                                 <h5 className='benefitrow3heading'>
                                     Choose the item you wish to personalize
                                 </h5>

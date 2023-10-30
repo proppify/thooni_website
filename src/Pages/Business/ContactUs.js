@@ -9,7 +9,7 @@ const ContactUs = () => {
         <div className='contactcontainer'>
             <Row style={{ backgroundColor: '#EDF8FF' }}>
                 <Col xs={12} md={6}>
-                    <div className="image-container1">
+                    <div className="contactimage-container1">
                         <img src={ContactUsDone} alt="card" className="contact2Img" />
                         <div className="contactoverlay"></div>
                     </div>
