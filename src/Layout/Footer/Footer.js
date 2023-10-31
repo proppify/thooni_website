@@ -84,9 +84,8 @@ const Footer = () => {
                     <span className='reservedtext'>© 2023 Thooni.com. All Rights Reserved.</span>
                     <span className='reservedtext pointer'>
                         <span>
-                            <Link to='/thooni_website/privacypolicy' target='_blank' style={{ color: 'black', textDecorationLine: 'none' }}>Privacy</Link></span> | <span>
-                            <Link to='/thooni_website/termsservice' target='_blank' style={{ color: 'black', textDecorationLine: 'none' }}>Terms of Service</Link></span> | <span>
-                            <Link to='/thooni_website/returns' target='_blank' style={{ color: 'black', textDecorationLine: 'none' }}>Alterations and Returns</Link></span></span>
+                            <Link to='/thooni_website/privacypolicy'  style={{ color: 'black', textDecorationLine: 'none' }}>Privacy</Link></span> | <span>
+                            <Link to='/thooni_website/termsservi' style={{ color: 'black', textDecorationLine: 'none' }}>Alterations and Returns</Link></span></span>
                     <hr className='line' />
                 </div>
             </div>
