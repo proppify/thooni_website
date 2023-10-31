@@ -35,3 +35,13 @@
     justify-content: flex-end;
     gap: 14px
 }
+
+.navItemActive{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 900;
+    cursor: pointer;
+    color: #252B42;
+    text-decoration-line: none;
+    font-family: 'Montserrat', sans-serif;
+}

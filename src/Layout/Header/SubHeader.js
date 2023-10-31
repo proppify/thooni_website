@@ -1,10 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../../Styles/SubHeader.css';
 import { Col, Row } from 'react-bootstrap';
 import ThooniLogo from '../../Assets/ThooniLogo.svg';
 import { Link } from 'react-router-dom';
 
 const SubHeader = () => {
+  const [activeItem, setActiveItem] = useState('Home');
+
+  const scrollToContact = () => {
+    const contactSection = document?.getElementById('designersadvice');
+    contactSection?.scrollIntoView({ behavior: 'smooth' });
+  };
+  const navigateToContact = () => {
+    window.location.href = '/designersadvice';
+  };
+
+
+  const handleItemClick = (itemName) => {
+    setActiveItem(itemName);
+  };
   return (
     <div className='subHeader'>
       <Row style={{ alignItems: 'center' }}>
@@ -17,16 +31,30 @@ const SubHeader = () => {
         </Col>
         <Col xs={12} md={8}>
           <div className='navalignment2'>
-            <span className='navtext'>
-              <Link to='/' className='navtext'>Home</Link>
+            <span>
+              <Link to='/'
+                //
+                className={activeItem === 'Home' ? 'navItemActive' : 'navtext'}
+                onClick={() => handleItemClick('Home')}
+              >Home</Link>
             </span>
-            <span className='navtext'>
-              <Link to='/aboutus' className='navtext'>About Us</Link>
+            <span>
+              <Link to='/aboutus'
+                //
+                className={activeItem === 'AboutUs' ? 'navItemActive' : 'navtext'}
+                onClick={() => handleItemClick('AboutUs')}>About Us</Link>
             </span>
-            <span className='navtext'>
-              <Link to='/business' className='navtext'>For Business</Link>
+            <span>
+              <Link to='/business'
+                className={activeItem === 'Business' ? 'navItemActive' : 'navtext'}
+                onClick={() => handleItemClick('Business')}
+              >For Business</Link>
             </span>
-            <span className='navtext'>Designer's Advice</span>
+            <span>
+              <Link onClick={() => { navigateToContact(); handleItemClick('Designer') }}
+                className={activeItem === 'Designer' ? 'navItemActive' : 'navtext'}
+              >Designer's Advice</Link>
+            </span>
           </div>
         </Col>
       </Row>

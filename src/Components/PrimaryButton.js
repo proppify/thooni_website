@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PrimaryButton = ({ onClick, text, color,width }) => {
+const PrimaryButton = ({ onClick, text, color,width,minWidth }) => {
     const styles = {
         button: {
             backgroundColor: color,
@@ -14,7 +14,8 @@ const PrimaryButton = ({ onClick, text, color,width }) => {
             margin: '4px 2px',
             cursor: 'pointer',
             borderRadius: '5px',
-            maxWidth: width ? width : '191px'
+            maxWidth: width ? width : '191px',
+            minWidth: minWidth ? minWidth : '191px'
         },
     };
     return (

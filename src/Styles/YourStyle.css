@@ -10,16 +10,34 @@
     width: 100%;
 }
 
+.h1imageContainer {
+    position: absolute;
+    right: -70px;
+}
+
+.h2imageContainer {
+    position: absolute;
+    right: 110px;
+}
+
 /* Carousel.css */
 .carousel-caption {
     position: absolute;
-    left: 10%;
+    left: 7% !important;
     top: 18%;
     text-align: left;
     /* color: #fff;
     text-shadow: 1px 1px 2px #000; */
 }
-
+/* .carousel-control-next {
+    right: -50px !important;
+}
+.carousel-control-prev {
+    left: -50px !important;
+} */
+.carousel-inner{
+    overflow: visible !important;
+}
 .blueheading {
     font-family: "Montserrat", sans-serif;
     color: #2a7cc7;
@@ -37,7 +55,7 @@
     line-height: 50px;
     letter-spacing: 0.2px;
     text-align: start;
-    margin: 0px 128px 0px 0px;
+    margin: 0px 112px 0px 0px;
 }
 
 .smallsubheading {
@@ -51,16 +69,20 @@
 }
 
 .howworkcontainer {
-    margin: 40px 0px 0px 175px;
+    /* margin: 40px 0px 0px 175px; */
+    padding: 40px 0px 0px 135px;
+    width: 740px;
 }
 
 .subhowworkcontainer {
-    margin-top: 50px !important;
+    margin-top: 60px !important;
     margin-left: 20px !important;
 }
 
 .HowItWorkImg {
-    width: "100%";
+    /* width: 100%; */
+    width: 550px;
+    /* height: 610px; */
 }
 .numbandtext {
     display: flex;
@@ -101,7 +123,7 @@
     letter-spacing: 0.2px;
 }
 .subhowworkcontainer1 {
-    margin-top: 90px !important;
+    margin-top: 60px !important;
     margin-left: 20px !important;
 }
 
@@ -141,6 +163,9 @@
 }
 .phonestyle {
     height: 350px;
+}
+.phonestyle1 {
+    height: 380px;
 }
 .downloadText {
     margin: 70px 70px 0px 118px;
@@ -187,7 +212,7 @@
     width: 70%;
     display: flex;
     justify-content: center;
-    margin: 30px;
+    margin: 30px 0px 0px 0px;
 }
 .stylishrightContainer {
     width: 30%;
@@ -244,7 +269,7 @@
     transform: translate(-50%, -50%);
     background: #ffffff;
     color: #252b42;
-    /* width: 100%;  */
+    min-width: 40%; 
     padding: 6px;
 }
 
@@ -275,7 +300,7 @@
 .comingContainer {
     width: 100%;
     /* height: 390px; */
-    padding: 40px;
+    padding: 80px 0px 0px 150px;
     display: flex;
 }
 .comingText {
@@ -359,20 +384,20 @@
     letter-spacing: 0.2px;
     text-align: start;
 }
-.CustName{
+.CustName {
     text-align: start;
 }
-.CustRating{
+.CustRating {
     text-align: start;
 }
 
-.CustDetails{
+.CustDetails {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
 }
 
-.Heartxt1{
+.Heartxt1 {
     font-family: "Montserrat", sans-serif;
     color: #252b42;
     font-size: 24px;
@@ -381,7 +406,7 @@
     letter-spacing: 0.1px;
 }
 
-.Heartxt2{
+.Heartxt2 {
     font-family: "Montserrat", sans-serif;
     color: #252b42;
     font-size: 20px;
@@ -390,7 +415,7 @@
     letter-spacing: 0.2px;
 }
 
-.Heartxt3{
+.Heartxt3 {
     font-family: "Montserrat", sans-serif;
     color: #252b42;
     font-size: 20px;
