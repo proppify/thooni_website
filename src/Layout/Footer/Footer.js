@@ -86,7 +86,7 @@ const Footer = () => {
                         <span>
                             <Link to='/thooni_website/privacypolicy'  style={{ color: 'black', textDecorationLine: 'none' }}>Privacy</Link></span> | <span>
                             <Link to='/thooni_website/termsservice' style={{ color: 'black', textDecorationLine: 'none' }}>Terms of Service</Link></span> | <span>
-                            <Link to='/thooni_website/returns' target='_blank' style={{ color: 'black', textDecorationLine: 'none' }}>Alterations and Returns</Link></span></span>
+                            <Link to='/thooni_website/returns' style={{ color: 'black', textDecorationLine: 'none' }}>Alterations and Returns</Link></span></span>
                     <hr className='line' />
                 </div>
             </div>
