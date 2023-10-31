@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/thooni_website/static/css/main.bbd77ad4.css",
-    "main.js": "/thooni_website/static/js/main.fca3e03c.js",
+    "main.css": "/thooni_website/static/css/main.e5be67fa.css",
+    "main.js": "/thooni_website/static/js/main.bc32aa9f.js",
     "static/media/Foot3.svg": "/thooni_website/static/media/Foot3.c43c5cc14d8dafa690ce47f920dc728b.svg",
     "static/media/CommingSoon.svg": "/thooni_website/static/media/CommingSoon.44656da99d16f80d547c6b5815568415.svg",
     "static/media/BusinessBg.svg": "/thooni_website/static/media/BusinessBg.f125b8eb08f43c94eb803b5e950468f8.svg",
@@ -39,11 +39,11 @@
     "index.html": "/thooni_website/index.html",
     "static/media/Facebook.svg": "/thooni_website/static/media/Facebook.def27774939144a954d5634afee4ba97.svg",
     "static/media/Close - X.svg": "/thooni_website/static/media/Close - X.fa292b095a001f16e21a5e34edbfb82d.svg",
-    "main.bbd77ad4.css.map": "/thooni_website/static/css/main.bbd77ad4.css.map",
-    "main.fca3e03c.js.map": "/thooni_website/static/js/main.fca3e03c.js.map"
+    "main.e5be67fa.css.map": "/thooni_website/static/css/main.e5be67fa.css.map",
+    "main.bc32aa9f.js.map": "/thooni_website/static/js/main.bc32aa9f.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbd77ad4.css",
-    "static/js/main.fca3e03c.js"
+    "static/css/main.e5be67fa.css",
+    "static/js/main.bc32aa9f.js"
   ]
 }
