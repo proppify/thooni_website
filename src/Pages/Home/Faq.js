@@ -18,7 +18,7 @@ const Faq = () => {
                 </Col>
                 <Col sm={12}>
                     <div style={{ display: 'flex', alignItems: 'flex-start', marginTop: '12px' }}>
-                        <h5 className='faq2'>Design with confidence: Expert fashio tips at your finger tips!</h5>
+                        <h5 className='faq2'>Design with confidence: Expert fashion tips at your finger tips!</h5>
                     </div>
                 </Col>
                 <Col sm={8}>
@@ -29,18 +29,12 @@ const Faq = () => {
             </Row>
             <Row style={{marginTop:'30px'}}>
                 <Col sm={12}>
-                    <NewAccordion title={'How Does 3D visualization work?'} content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat."/>
+                    <NewAccordion title={'How Does 3D visualization work?'} content="Our 3D visualization feature allows you to upload 3D models of your designs, which customers can interact with on your website and app."/>
                 </Col>
             </Row>
             <Row >
                 <Col sm={12}>
-                    <NewAccordion title={'Can I customize my website and app?'} content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat."/>
+                    <NewAccordion title={'Can I customize my website and app?'} content="Yes, you can customize the look and feel of your website and app to match your brand identity."/>
                 </Col>
             </Row>
         </div>

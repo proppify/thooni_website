@@ -28,7 +28,7 @@ const YourStyle = () => {
                             </div>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    {/* <Carousel.Item>
+                    <Carousel.Item>
                         <div style={{ backgroundColor: '#9BEAF2', height: '620px', borderRadius: '4px' }}>
                             <img src={H2} alt='heroimage' className='h2imageContainer' />
                         </div>
@@ -51,7 +51,7 @@ const YourStyle = () => {
                                 <PrimaryButton color={'#23A6F0'} text={'Personalise Your Style'} width={'none'} />
                             </div>
                         </Carousel.Caption>
-                    </Carousel.Item> */}
+                    </Carousel.Item>
                 </Carousel>
             </div>
         </div>

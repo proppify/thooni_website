@@ -77,7 +77,7 @@ const BeStylish = () => {
                         </div>
                         <div className='stylishrightContainer'>
                             <div class="styleimgcontainer">
-                                <img src={Accesories1} alt="Accesories" style={{ width: '100%' }} />
+                                <img src={Accesories1} alt="Accesories" style={{ width: '100%',height:'281px' }} />
                                 <div class="styleimgcontent">
                                     <span class="accesoriestxt">ACCESSORIES</span>
                                 </div>
@@ -86,14 +86,14 @@ const BeStylish = () => {
                     </Col>
                     <Col sm={12} style={{ width: '100%', display: 'flex' }}>
                         <div className='' style={{ width: '70%', display: 'flex',gap:'10px' }}>
-                            <div class="styleimgcontainer" style={{ width: '60%',}}>
-                                <img src={Men1} alt="Accesories" />
+                            <div class="styleimgcontainer" style={{ width: '55%',}}>
+                                <img src={Men1} alt="Accesories" className='stylishMen'/>
                                 <div class="styleimgcontent" style={{minWidth:'33%'}}>
                                     <span class="accesoriestxt">MEN</span>
                                 </div>
                             </div>
-                            <div class="styleimgcontainer" style={{ width: '40%',}}>
-                                <img src={Womens1} alt="Accesories" />
+                            <div class="styleimgcontainer" style={{ width: '45%',}}>
+                                <img src={Womens1} alt="Accesories" className='stylishWoMen' />
                                 <div class="styleimgcontent">
                                     <span class="accesoriestxt">WOMEN</span>
                                 </div>

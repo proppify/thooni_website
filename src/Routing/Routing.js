@@ -15,9 +15,9 @@ const Routing = () => {
     return (
         <Routes > 
             <Route path="/designersadvice" element={<ContactUs />} />
-            <Route path="/returns" element={<Returns />} />
-            <Route path="/termsservice" element={<TermsService />} />
-            <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+            <Route path="/thooni_website/returns" element={<Returns />} />
+            <Route path="/thooni_website/termsservice" element={<TermsService />} />
+            <Route path="/thooni_website/privacypolicy" element={<PrivacyPolicy />} />
             <Route path="/business" element={<Business />} />
             <Route path="/aboutus" element={<Aboutus />} />
             <Route path="/thooni_website/" element={<Home />} />

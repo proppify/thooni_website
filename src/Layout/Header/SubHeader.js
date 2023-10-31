@@ -34,25 +34,28 @@ const SubHeader = () => {
             <span>
               <Link to='/'
                 //
-                className={activeItem === 'Home' ? 'navItemActive' : 'navtext'}
+                // className={activeItem === 'Home' ? 'navItemActive' : 'navtext'}
+                className='navtext'
                 onClick={() => handleItemClick('Home')}
               >Home</Link>
             </span>
             <span>
               <Link to='/aboutus'
-                //
-                className={activeItem === 'AboutUs' ? 'navItemActive' : 'navtext'}
+                className='navtext'
+                // className={activeItem === 'AboutUs' ? 'navItemActive' : 'navtext'}
                 onClick={() => handleItemClick('AboutUs')}>About Us</Link>
             </span>
             <span>
               <Link to='/business'
-                className={activeItem === 'Business' ? 'navItemActive' : 'navtext'}
+                className='navtext'
+                // className={activeItem === 'Business' ? 'navItemActive' : 'navtext'}
                 onClick={() => handleItemClick('Business')}
               >For Business</Link>
             </span>
             <span>
               <Link onClick={() => { navigateToContact(); handleItemClick('Designer') }}
-                className={activeItem === 'Designer' ? 'navItemActive' : 'navtext'}
+                // className={activeItem === 'Designer' ? 'navItemActive' : 'navtext'}
+                className='navtext'
               >Designer's Advice</Link>
             </span>
           </div>

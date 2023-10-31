@@ -35,7 +35,7 @@
 .carousel-control-prev {
     left: -50px !important;
 } */
-.carousel-inner{
+.carousel-inner {
     overflow: visible !important;
 }
 .blueheading {
@@ -199,9 +199,18 @@
     width: 100%;
     background-color: #edf8ff;
     /* height: 390px; */
-    padding: 20px;
+    padding: 12px 80px 12px 80px;
     display: flex;
     flex-direction: column;
+}
+
+.stylishMen {
+    width: 440px;
+    height: 500px;
+}
+.stylishWoMen {
+    width: 300px;
+    height: 500px;
 }
 .stylishContainer1 {
     width: 100%;
@@ -211,7 +220,7 @@
 .stylishleftContainer {
     width: 70%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin: 30px 0px 0px 0px;
 }
 .stylishrightContainer {
@@ -269,7 +278,7 @@
     transform: translate(-50%, -50%);
     background: #ffffff;
     color: #252b42;
-    min-width: 40%; 
+    min-width: 40%;
     padding: 6px;
 }
 
@@ -367,7 +376,7 @@
 }
 
 .Custtext-container {
-    padding: 40px 0px 0px 220px;
+    padding: 40px 0px 0px 80px;
 }
 
 .Custtitle {

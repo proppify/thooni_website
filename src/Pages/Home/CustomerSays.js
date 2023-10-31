@@ -1,12 +1,15 @@
 import React, { useState } from 'react';
 import CustSays from '../../Assets/CustomerSays.svg';
-import Arrow1 from '../../Assets/li.png';
-import Arrow2 from '../../Assets/li (1).png';
+import Arrow1 from '../../Assets/next_arrow.png';
+import Arrow2 from '../../Assets/next_last.png';
+import Arrow3 from '../../Assets/prev_arrow.png';
+import Arrow4 from '../../Assets/prev_last.png';
 
 const CustomerSays = () => {
     const [position, setPosition] = useState(0);
     const scrolldata = [
-        {   "name": 'Anjali Sharma',
+        {
+            "name": 'Anjali Sharma',
             "image": CustSays,
             "details": "I'm thrilled with the Thooni app's personalized clothing options. The app is easy to navigate, the materials are high-quality, and the end results are always stylish and unique."
         },
@@ -51,15 +54,16 @@ const CustomerSays = () => {
 
     return (
         <div>
-            <div style={{ width: '100%', padding: '20px' }}>
-                <h3 className='Heartxt1'>HEAR WHAT OUR CUSTOMERS SAY</h3>
-                <span className='Heartxt2'>Discover What Our Happy Customers Have to Say About Us!</span>
+            <h3 className='Heartxt1'>HEAR WHAT OUR CUSTOMERS SAY</h3>
+            <span className='Heartxt2'>Discover What Our Happy Customers Have to Say About Us!</span>
+            <div style={{ width: '100%', padding: '12px 80px' }}>
+
                 {/* {scrolldata.map((x,i)=>  */}
-                <div style={{ width: '100%', padding: '60px 0px 0px 80px', background: '#EDF8FF', height: '350px',marginTop:'25px' }}>
+                <div style={{ width: '100%', padding: '60px 0px 0px 80px', background: '#EDF8FF', height: '350px', marginTop: '25px' }}>
                     <div className="Custbanner">
                         <img src={scrolldata[position]?.image} alt="Custbanner" className="Custbanner-image" />
                         <div className="Custtext-container">
-                            <div style={{width: '375px',textAlign:'left',display:'flex',flexDirection:'column',gap:'16px' }}>
+                            <div style={{ width: '475px', textAlign: 'left', display: 'flex', flexDirection: 'column', gap: '16px' }}>
                                 <span className="Custparagraph">{scrolldata[position]?.details}</span>
                                 <span className='Heartxt3'>{scrolldata[position]?.name}</span>
                                 {/* <div className='CustRating'>{renderStars()}</div> */}
@@ -68,15 +72,32 @@ const CustomerSays = () => {
                     </div>
                 </div>
                 {/* )} */}
-                <div style={{ marginTop: '10px',float:'right' }}>
+                <div style={{ marginTop: '10px', float: 'right', display: 'flex', gap: '12px' }}>
                     {/* <button onClick={handlePrevClick} disabled={position === 0}>
                         Previous
                     </button> */}
                     {/* <button onClick={handleNextClick} disabled={position === scrolldata[0]?.length - 1}>
                         Next
                     </button> */}
-                    <img src={Arrow2} alt='Arrow2' style={{ cursor:'pointer' }} onClick={handlePrevClick}/>
-                    <img src={Arrow1} alt='Arrow1' style={{ cursor:'pointer' }}  onClick={handleNextClick}/>
+                    {/* <img src={Arrow2} alt='Arrow2' style={{ cursor: 'pointer' }} onClick={handlePrevClick} />
+                    <img src={Arrow1} alt='Arrow1' style={{ cursor: 'pointer' }} onClick={handleNextClick} /> */}
+
+
+                    {position === 0 ?
+                        <>
+                            <img src={Arrow4} alt='Arrow2' style={{ cursor: 'no-drop' }}/>
+                            <img src={Arrow1} alt='Arrow1' style={{ cursor: 'pointer' }} onClick={handleNextClick} />
+                        </>
+                        : position === scrolldata?.length - 1 ?
+                            <>
+                                <img src={Arrow3} alt='Arrow2' style={{ cursor: 'pointer' }} onClick={handlePrevClick} />
+                                <img src={Arrow2} alt='Arrow1' style={{ cursor: 'no-drop' }}  />
+                            </> :
+                            <>
+                                <img src={Arrow3} alt='Arrow2' style={{ cursor: 'pointer' }} onClick={handlePrevClick} />
+                                <img src={Arrow1} alt='Arrow1' style={{ cursor: 'pointer' }} onClick={handleNextClick} />
+                            </>
+                    }
                 </div>
             </div>
         </div>

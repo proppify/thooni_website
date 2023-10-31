@@ -6,7 +6,7 @@ import PrimaryButton from '../../Components/PrimaryButton';
 
 const ContactUs = () => {
     return (
-        <div className='contactcontainer'>
+        <div className='contactcontainer' id='designersadvice'>
             <Row style={{ backgroundColor: '#EDF8FF' }}>
                 <Col xs={12} md={6}>
                     <div className="contactimage-container1">
