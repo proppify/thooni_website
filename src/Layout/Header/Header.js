@@ -12,7 +12,7 @@ const Header = () => {
     <div className='wholecontainer'>
       <div className='subcontainer'>
         <Row >
-          <Col xs={12} md={8}>
+          <Col xs={6} md={8}>
             <Row>
               <Col xs={12} md={6} xl={3} lg={4}>
                 <div className='iconwithtext'>
@@ -28,12 +28,12 @@ const Header = () => {
               </Col>
             </Row>
           </Col>
-          <Col xs={12} md={4}>
+          <Col xs={6} md={4}>
             <div className='textandicons'>
               <span className='numberfont'>Follow Us : </span>
-              <AiOutlineInstagram color='white' size={18} />
-              <BiLogoFacebookCircle color='white' size={18} />
-              <BiLogoTwitter color='white' size={18} />
+              <AiOutlineInstagram color='white' size={18}/>
+              <BiLogoFacebookCircle color='white' size={18}   className='d-none' />
+              <BiLogoTwitter color='white' size={18}  className='d-none' />
             </div>
           </Col>
         </Row>

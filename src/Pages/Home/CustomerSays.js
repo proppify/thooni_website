@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import CustSays from '../../Assets/CustomerSays.svg';
+import CustSays from '../../Assets/testimonial-img.jpg';
 import Arrow1 from '../../Assets/next_arrow.png';
 import Arrow2 from '../../Assets/next_last.png';
 import Arrow3 from '../../Assets/prev_arrow.png';
@@ -56,12 +56,12 @@ const CustomerSays = () => {
         <div>
             <h3 className='Heartxt1'>HEAR WHAT OUR CUSTOMERS SAY</h3>
             <span className='Heartxt2'>Discover What Our Happy Customers Have to Say About Us!</span>
-            <div style={{ width: '100%', padding: '12px 80px' }}>
+            <div className='tesimonial-main'>
 
                 {/* {scrolldata.map((x,i)=>  */}
-                <div style={{ width: '100%', padding: '60px 0px 0px 80px', background: '#EDF8FF', height: '350px', marginTop: '25px' }}>
+                <div className='testimonial-section'>
                     <div className="Custbanner">
-                        <img src={scrolldata[position]?.image} alt="Custbanner" className="Custbanner-image" />
+                        <div className='customer-img'><img src={scrolldata[position]?.image} alt="Custbanner" className="Custbanner-image" /></div>
                         <div className="Custtext-container">
                             <div style={{ width: '475px', textAlign: 'left', display: 'flex', flexDirection: 'column', gap: '16px' }}>
                                 <span className="Custparagraph">{scrolldata[position]?.details}</span>
@@ -72,7 +72,7 @@ const CustomerSays = () => {
                     </div>
                 </div>
                 {/* )} */}
-                <div style={{ marginTop: '10px', float: 'right', display: 'flex', gap: '12px' }}>
+                <div className='testimonal-btn'>
                     {/* <button onClick={handlePrevClick} disabled={position === 0}>
                         Previous
                     </button> */}

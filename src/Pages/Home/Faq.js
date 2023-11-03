@@ -28,12 +28,12 @@ const Faq = () => {
                 </Col>
             </Row>
             <Row style={{marginTop:'30px'}}>
-                <Col sm={12}>
+                <Col sm={12} className='p-0'>
                     <NewAccordion title={'How Does 3D visualization work?'} content="Our 3D visualization feature allows you to upload 3D models of your designs, which customers can interact with on your website and app."/>
                 </Col>
             </Row>
             <Row >
-                <Col sm={12}>
+                <Col sm={12} p={0} className='p-0'>
                     <NewAccordion title={'Can I customize my website and app?'} content="Yes, you can customize the look and feel of your website and app to match your brand identity."/>
                 </Col>
             </Row>

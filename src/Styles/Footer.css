@@ -112,3 +112,15 @@
 .pointer{
     cursor: pointer;
 }
+
+@media (max-width:991px){
+    .footercontainer {
+        background-color: #edf8ff;
+        padding: 48px 20px;
+    }
+}
+@media (max-width:991px){
+.exploremenus{
+    flex-direction: row;
+}
+}

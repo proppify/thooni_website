@@ -4,7 +4,7 @@ import AboutUs from '../../Assets/AboutUs1.svg';
 
 const StyleShine = () => {
     return (
-        <div className='bannerCard'>
+        <div className='bannerCard mb-150'>
             <img alt='aboutus' src={AboutUs} className='bannerImg' />
             <div className='bannerText'>
                 <div className='bannerCont'>

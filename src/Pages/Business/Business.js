@@ -14,7 +14,7 @@ const Business = () => {
       <div className='mb-150'>
         <Benefits />
       </div>
-      <div className='mb-150'>
+      <div className='mb-150 d-none'>
         <ContactUs />
       </div>
     </div>

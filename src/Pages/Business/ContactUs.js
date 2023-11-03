@@ -14,7 +14,7 @@ const ContactUs = () => {
                         <div className="contactoverlay"></div>
                     </div>
                 </Col>
-                <Col xs={6} md={6}>
+                <Col xs={12} md={6}>
                     <div className='contactForm'>
                         <div className='contactinputs' >
                             <input placeholder='Name*' type='text' />

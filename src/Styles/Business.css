@@ -284,3 +284,20 @@ input[type="text"]:focus {
     display:inline-block;
     text-align: center;
 }
+@media (max-width:991px){
+    .mb-150 {
+        margin-bottom: 50px;
+    }
+}
+@media (max-width:767px){
+    .contactimage-container1{
+        right: 0;
+    }
+    .contactForm{
+        padding-bottom: 30px;
+    }
+    .contactinputs{
+        width: 100%;
+        padding: 20px 0;
+    }
+}

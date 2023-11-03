@@ -8,7 +8,7 @@ const Aboutus = () => {
   return (
     <div>
         <StyleShine/>
-        <HappyCustomers/>
+         {/* <HappyCustomers/>*/}
         <WeDo/>
         <OurMission/>
     </div>

@@ -4,9 +4,9 @@ import Kids from '../../Assets/Kids.svg';
 import Womens from '../../Assets/womens.svg';
 import Men from '../../Assets/filter (1).png';
 
-import Men1 from '../../Assets/D1.png';
-import Womens1 from '../../Assets/D2.png';
-import Kids1 from '../../Assets/D3.png';
+import Men1 from '../../Assets/man-striped-shirt-closing-his-buttonier.jpg';
+import Womens1 from '../../Assets/young-woman-beautiful-yellow-dress.jpg';
+import Kids1 from '../../Assets/pretty-toddler-sucking-lollipop.jpg';
 import { Col, Row } from 'react-bootstrap';
 import Accesories1 from '../../Assets/D0.png';
 
@@ -61,10 +61,10 @@ const BeStylish = () => {
                         </div>
                     </div>
                 </div> */}
-
-                <Row>
-                    <Col sm={12} style={{ width: '100%', display: 'flex' }}>
-                        <div className='stylishleftContainer'>
+            
+                <Row className='justify-content-between'>
+                   <Col md={7} className='order-lg-first order-last'>
+                   <div className='stylishleftContainer'>
                             <div className='stylishgrpText'>
                                 <h3 className='stylishtxt1'>Wear Better and Be Stylish</h3>
                                 <h6 className='stylishtxt2'>We have something for everyone</h6>
@@ -75,7 +75,9 @@ const BeStylish = () => {
                                     friend for custom fashion.</span>
                             </div>
                         </div>
-                        <div className='stylishrightContainer'>
+                    </Col> 
+                    <Col md={5}  lg={4} className='order-lg-last order-first'>
+                    <div className='stylishrightContainer'>
                             <div class="styleimgcontainer">
                                 <img src={Accesories1} alt="Accesories" style={{ width: '100%',height:'281px' }} />
                                 <div class="styleimgcontent">
@@ -84,29 +86,32 @@ const BeStylish = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col sm={12} style={{ width: '100%', display: 'flex' }}>
-                        <div className='' style={{ width: '70%', display: 'flex',gap:'10px' }}>
-                            <div class="styleimgcontainer" style={{ width: '55%',}}>
+                 
+                </Row>
+                <Row>
+                    <Col md={4}>
+                             <div class="styleimgcontainer">
                                 <img src={Men1} alt="Accesories" className='stylishMen'/>
                                 <div class="styleimgcontent" style={{minWidth:'33%'}}>
                                     <span class="accesoriestxt">MEN</span>
                                 </div>
                             </div>
-                            <div class="styleimgcontainer" style={{ width: '45%',}}>
-                                <img src={Womens1} alt="Accesories" className='stylishWoMen' />
+                    </Col>
+                    <Col md={4}>
+                             <div class="styleimgcontainer">
+                                 <img src={Womens1} alt="Accesories" className='stylishWoMen' />
                                 <div class="styleimgcontent">
                                     <span class="accesoriestxt">WOMEN</span>
                                 </div>
                             </div>
-                        </div>
-                        <div className='stylishrightContainer'>
-                            <div class="styleimgcontainer">
-                                <img src={Kids1} alt="Accesories" style={{ width: '100%', height: '500px' }} />
+                    </Col>
+                    <Col md={4}>
+                             <div class="styleimgcontainer">
+                             <img src={Kids1} alt="Accesories" />
                                 <div class="styleimgcontent">
                                     <span class="accesoriestxt">KIDS</span>
                                 </div>
                             </div>
-                        </div>
                     </Col>
                 </Row>
             </div>
