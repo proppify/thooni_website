@@ -25,6 +25,7 @@ const ContactUs = () => {
                         </div>
                         <PrimaryButton text={'Contact Us'} color={'#23A6F0'} />
                     </div>
+                    
                 </Col>
             </Row>
         </div>

@@ -8,11 +8,12 @@ const ComingSoon = () => {
                 <img src={PhoneHand} alt='PhoneHand' className='phonestyle1' />
             </div>
             <div className='downloadleftContainer'>
-                <div className='comingText'>
-                    <h2 className='soonText'>Talk to our design team</h2>
-                    <h3 className='soonTexth3'>XPERIENCE <span style={{color:'#23A6F0'}}>VR</span></h3>
-                    <h6 className='soonTexth6'>Design with Confidence: Expert Fashion Tips at Your Fingertips!</h6>
-                    <span className='soonTextspan' style={{width:'80%'}}>Our virtual try-on technology offers a unique and immersive way to experience a product's true appearance on you. Say goodbye to the uncertainty of online shopping, and say hello to confidence and satisfaction in your purchase decisions. It's like having a virtual fitting room at your fingertips, making shopping an enjoyable and personalized experience like never before.</span>
+                <div className='comingText' style={{maxWidth:600}}>
+                    <h2 className='soonText'>Design with Confidence: Expert Fashion Tips at Your Fingertips!</h2>
+                    {/* <h3 className='soonTexth3'>Design with Confidence: Expert Fashion Tips at Your Fingertips!</h3> */}
+                    <h6 className='soonTexth6'>Would you like fashion tips while designing? Our experts are ready to assist you.
+</h6>
+                    <span className='soonTextspan' style={{width:'80%'}}>Reach out to our designer to craft a style that's uniquely yours, reflecting your personality and fashion tastes. Elevate your wardrobe.</span>
                 </div>
             </div>
         </div>
