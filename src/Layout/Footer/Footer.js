@@ -77,7 +77,7 @@ const Footer = () => {
             </Row>
             <div className='footerline2' />
             <div className='headcont'>
-                <h2 className='headtxt'>thooni</h2>
+                <h2 className='headtxt'>thooni</h2> 
             </div>
             <div style={{ display: 'inline-block' }}>
                 <div className='reserved'>
