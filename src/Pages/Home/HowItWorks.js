@@ -104,7 +104,7 @@ const HowItWorks = () => {
                                     <h2 className='blueandtext'>3.</h2>
                                     <div className='textandtext'>
                                         <span className='boldblacktext' style={{ width: '120px' }}>Provide Sizing Details</span>
-                                        <span className='smallblacktext' style={{ width: '175px' }}>Please supply accurate measurements for a perfect-fitting custom garment. </span>
+                                        <span className='smallblacktext' style={{ width: '175px' }}>Please supply accurate measurements for a perfect-fitting custom garment.  </span>
                                     </div>
                                 </div>
                             </Col>

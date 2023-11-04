@@ -120,7 +120,17 @@
     }
 }
 @media (max-width:991px){
-.exploremenus{
+    .footerthooni {
+        margin-top: 15px;
+    }
+    .footerthooni .exploremenus{
     flex-direction: row;
 }
+
+}
+@media (max-width:560px){
+    .footer-nav{
+        flex-direction: column!important;
+      
+    }
 }

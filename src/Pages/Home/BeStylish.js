@@ -4,11 +4,12 @@ import Womens1 from '../../Assets/young-woman-beautiful-yellow-dress.jpg';
 import Kids1 from '../../Assets/pretty-toddler-sucking-lollipop.jpg';
 import { Col, Row } from 'react-bootstrap';
 import Accesories1 from '../../Assets/D0.png';
+import { Link } from 'react-router-dom';
 
 const BeStylish = () => {
     return (
         <>
-            <div className='stylishContainer' id="Stylesh">
+            <div className='stylishContainer'>
                 {/* <div style={{ display: 'flex' }}>
                     <div className='stylishleftContainer'>
                         <div className='stylishgrpText'>
@@ -63,50 +64,55 @@ const BeStylish = () => {
                             <div className='stylishgrpText'>
                                 <h3 className='stylishtxt1'>Wear Better and Be Stylish</h3>
                                 <h6 className='stylishtxt2'>We have something for everyone</h6>
-                                <span className='stylishtxt3'>At Thooni Custom Clothing, we're all about making your fashion
-                                    dreams come true. Our talented designers and crafty creators work
-                                    hard to make clothes that are just for you, showing off your one-of-a-kind
-                                    style. We promise to give you great quality, new ideas, and keep you happy – we're your go-to
-                                    friend for custom fashion.</span>
+                                <span className='stylishtxt3'>At Thooni Custom Clothing, we're all about making your fashion dreams come true. Our talented designers and crafty creators work hard to make clothes that are just for you, showing off your one-of-a-kind style. We promise to give you great quality, new ideas, and keep you happy – we're your go-to friend for custom fashion.</span><br/>
+                                <button className='btn btn-primary btn-sm mt-3'>Read More</button>
                             </div>
                         </div>
                     </Col> 
                     <Col md={5}  lg={4} className='order-lg-last order-first'>
-                    <div className='stylishrightContainer'>
+                    <Link to="#" className='stylishrightContainer'>
                             <div class="styleimgcontainer">
                                 <img src={Accesories1} alt="Accesories" style={{ width: '100%',height:'281px' }} />
                                 <div class="styleimgcontent">
                                     <span class="accesoriestxt">ACCESSORIES</span>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                     </Col>
                  
                 </Row>
                 <Row>
                     <Col md={4}>
-                             <div class="styleimgcontainer">
+                        <Link to="#">
+                            <div class="styleimgcontainer">
                                 <img src={Men1} alt="Accesories" className='stylishMen'/>
                                 <div class="styleimgcontent" style={{minWidth:'33%'}}>
                                     <span class="accesoriestxt">MEN</span>
                                 </div>
                             </div>
+                        </Link>
                     </Col>
                     <Col md={4}>
-                             <div class="styleimgcontainer">
+                    <Link to="#">
+                            <div class="styleimgcontainer">
                                  <img src={Womens1} alt="Accesories" className='stylishWoMen' />
                                 <div class="styleimgcontent">
                                     <span class="accesoriestxt">WOMEN</span>
                                 </div>
                             </div>
+                        </Link>
+                            
                     </Col>
                     <Col md={4}>
-                             <div class="styleimgcontainer">
+                    <Link to="#">
+                            <div class="styleimgcontainer">
                              <img src={Kids1} alt="Accesories" />
                                 <div class="styleimgcontent">
                                     <span class="accesoriestxt">KIDS</span>
                                 </div>
                             </div>
+                        </Link>
+                            
                     </Col>
                 </Row>
             </div>

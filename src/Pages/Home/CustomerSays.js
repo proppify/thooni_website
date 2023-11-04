@@ -9,20 +9,30 @@ const CustomerSays = () => {
     const [position, setPosition] = useState(0);
     const scrolldata = [
         {
-            "name": 'Anjali Sharma',
+            "name": 'Kavya Reddy',
             "image": CustSays,
-            "details": "I'm thrilled with the Thooni app's personalized clothing options. The app is easy to navigate, the materials are high-quality, and the end results are always stylish and unique."
+            "details": " The Thooni app is a game-changer for custom clothing! It offers a seamless experience, exceptional quality, and the ability to create unique, personalized garments. Highly recommended!"
         },
         {
-            "name": 'Devika Iyer',
+            "name": 'Nithya Nair',
             "image": CustSays,
-            "details": "Thooni app has revolutionized my wardrobe. The app's seamless design process, excellent customer service, and top-notch garments make it my top choice for custom clothing. Highly recommended!"
+            "details": "Thooni app has revolutionized my wardrobe. The app's seamless design process, excellent customer service, and top-notch garments make it my top choice for custom clothing. Highly recommended! "
         },
         {
-            "name": 'Ananya Rao',
+            "name": 'Meera Menon',
+            "image": CustSays,
+            "details": "The Thooni app is a hidden gem in the world of fashion. Its wide selection of customizable clothing, attention to detail, and prompt delivery have made it my favorite go-to app."
+        },
+       
+        {
+            "name": 'Shalini Rajan',
             "image": CustSays,
             "details": "I can't praise the Thooni app enough! It combines creativity, convenience, and quality seamlessly. With every order, I get custom-made clothing that fits perfectly and reflects my personal style."
-        }
+        },
+       
+       
+      
+       
     ]
     const handlePrevClick = () => {
         setPosition(Math.max(position - 1, 0)); // Ensure position doesn't go below 0

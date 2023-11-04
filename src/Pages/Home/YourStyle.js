@@ -1,13 +1,10 @@
 import React from 'react';
-import Hero from '../../Assets/Hero.png';
-import Hero1 from '../../Assets/Hero 5.png';
-import Hero2 from '../../Assets/hero6.png';
+import Hero2 from '../../Assets/Banner_3.png';
 import '../../Styles/YourStyle.css';
 import Carousel from 'react-bootstrap/Carousel';
-import PrimaryButton from '../../Components/PrimaryButton';
-import H1 from '../../Assets/H1.png';
-import H2 from '../../Assets/H2.png';
-import { Link } from 'react-router-dom';
+import H1 from '../../Assets/Banner_1.png';
+import H2 from '../../Assets/Banner_2.png';
+
 
 
 const YourStyle = () => {
@@ -49,9 +46,9 @@ const YourStyle = () => {
                         </div>                       
                         <Carousel.Caption className="text-left">
                             <div className='caption'>
-                                <h5 className='blueheading'>Every individual is a star</h5>
-                                <h2 className='boldheading' style={{ marginBottom: '20px' }}>Unlock Your Star Style</h2>
-                                <span className='smallsubheading' style={{ marginBottom: '20px' }}>Discover your inner celebrity style. We'll assist in creating and delivering it to your doorstep.</span>
+                                <h5 className='blueheading'>Convenience and Comfort Combined</h5>
+                                <h2 className='boldheading' style={{ marginBottom: '20px' }}> Perfect Fit Home Delivered</h2>
+                                <span className='smallsubheading' style={{ marginBottom: '20px' }}>Discover the joy of a perfect fit, conveniently delivered to your home, ensuring comfort and satisfaction.</span>
                                 <a href="#Stylesh" className='btn btn-primary'>Personalise Your Style</a>
                             </div>
                         </Carousel.Caption>

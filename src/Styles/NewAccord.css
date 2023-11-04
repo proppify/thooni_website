@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 
 .accordTitle {
-    font-family:'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     color: #000000;
     font-size: 20px;
     font-weight: 400;
@@ -9,7 +10,7 @@
 }
 
 .accordContent {
-    font-family:'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     color: #000000;
     font-size: 14px;
     font-weight: 400;
