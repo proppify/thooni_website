@@ -1,9 +1,4 @@
 import React from 'react';
-import Accesories from '../../Assets/Accessories.svg';
-import Kids from '../../Assets/Kids.svg';
-import Womens from '../../Assets/womens.svg';
-import Men from '../../Assets/filter (1).png';
-
 import Men1 from '../../Assets/man-striped-shirt-closing-his-buttonier.jpg';
 import Womens1 from '../../Assets/young-woman-beautiful-yellow-dress.jpg';
 import Kids1 from '../../Assets/pretty-toddler-sucking-lollipop.jpg';
@@ -13,7 +8,7 @@ import Accesories1 from '../../Assets/D0.png';
 const BeStylish = () => {
     return (
         <>
-            <div className='stylishContainer'>
+            <div className='stylishContainer' id="Stylesh">
                 {/* <div style={{ display: 'flex' }}>
                     <div className='stylishleftContainer'>
                         <div className='stylishgrpText'>
