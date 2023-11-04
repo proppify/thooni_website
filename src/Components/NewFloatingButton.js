@@ -6,7 +6,7 @@ const NewFloatingButton = ({onclickFunc}) => {
     return (
         <div className="floating-button">
             <a href={onclickFunc} target='_blank' rel='noreferrer'>
-            <img src={WhatsAppButton} alt='WhatsAppButton' />
+                 <img src={WhatsAppButton} alt='WhatsAppButton' /> Chat With Us
             </a>
         </div>
     )

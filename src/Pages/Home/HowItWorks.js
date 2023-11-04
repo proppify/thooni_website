@@ -7,8 +7,8 @@ import HowItWork from '../../Assets/HowItWorks.svg';
 const HowItWorks = () => {
     return (
         <div className='subcontainer'>
-            <Row>
-                <Col sm={4}>
+            <Row className='align-items-center'>
+            <Col md={6} xl={5}>
                     <img alt='' src={HowItWork} className='HowItWorkImg' />
                 </Col>
                 {/* <Col sm={8}>
@@ -72,8 +72,8 @@ const HowItWorks = () => {
                         </Row>
                     </div>
                 </Col> */}
-                <Col sm={8} style={{ width: '700px',marginTop:'57px',marginLeft:'51px' }}>
-                    <Row>
+                <Col md={6} xl={7}>
+                    <Row className='how-it-work-info'>
                         <Col sm={12}>
                             <h3 className='headinghow1' style={{marginBottom:'10px'}}>HOW IT WORKS</h3>
                         </Col>
@@ -81,7 +81,7 @@ const HowItWorks = () => {
                             <h6 className='headinghow2'>Our Process for Making This a Reality</h6>
                         </Col>
                         <Row className='subhowworkcontainer'>
-                            <Col sm={4}>
+                        <Col sm={6} lg={6} xl={4}>
                                 <div className='numbandtext'>
                                     <h2 className='blueandtext'>1.</h2>
                                     <div className='textandtext'>
@@ -90,7 +90,7 @@ const HowItWorks = () => {
                                     </div>
                                 </div>
                             </Col>
-                            <Col sm={4}>
+                            <Col sm={6} lg={6} xl={4}>
                                 <div className='numbandtext'>
                                     <h2 className='blueandtext'>2.</h2>
                                     <div className='textandtext'>
@@ -99,18 +99,16 @@ const HowItWorks = () => {
                                     </div>
                                 </div>
                             </Col>
-                            <Col sm={4}>
+                            <Col sm={6} lg={6} xl={4}>
                                 <div className='numbandtext'>
                                     <h2 className='blueandtext'>3.</h2>
                                     <div className='textandtext'>
                                         <span className='boldblacktext' style={{ width: '120px' }}>Provide Sizing Details</span>
-                                        <span className='smallblacktext' style={{ width: '175px' }}>Please supply accurate measurements for a perfect-fitting custom garment. </span>
+                                        <span className='smallblacktext' style={{ width: '175px' }}>Please supply accurate measurements for a perfect-fitting custom garment.  </span>
                                     </div>
                                 </div>
                             </Col>
-                        </Row>
-                        <Row className='subhowworkcontainer1'>
-                            <Col sm={4}>
+                           <Col sm={6} lg={6} xl={4}>
                                 <div className='numbandtext'>
                                     <h2 className='blueandtext'>4.</h2>
                                     <div className='textandtext'>
@@ -119,7 +117,7 @@ const HowItWorks = () => {
                                     </div>
                                 </div>
                             </Col>
-                            <Col sm={4}>
+                            <Col lg={6} xl={4}>
                                 <div className='numbandtext'>
                                     <h2 className='blueandtext'>5.</h2>
                                     <div className='textandtext'>
@@ -129,7 +127,8 @@ const HowItWorks = () => {
                                 </div>
                             </Col>
                         </Row>
-                    </Row>
+                        </Row>
+                        
                 </Col>
             </Row>
         </div>

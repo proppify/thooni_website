@@ -112,3 +112,25 @@
 .pointer{
     cursor: pointer;
 }
+
+@media (max-width:991px){
+    .footercontainer {
+        background-color: #edf8ff;
+        padding: 48px 20px;
+    }
+}
+@media (max-width:991px){
+    .footerthooni {
+        margin-top: 15px;
+    }
+    .footerthooni .exploremenus{
+    flex-direction: row;
+}
+
+}
+@media (max-width:560px){
+    .footer-nav{
+        flex-direction: column!important;
+      
+    }
+}

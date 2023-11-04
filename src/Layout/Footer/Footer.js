@@ -34,7 +34,7 @@ const Footer = () => {
                 <Col md={4} lg={3}>
                     <div className='footerthooni'>
                         <span className='thoonihead'>Explore</span>
-                        <div className='exploremenus'>
+                        <div className='exploremenus footer-nav'>
                             <span className='exploremenutexts'>
                                 <a href='/aboutus' className='exploremenutextsNolink'>About Us</a>
                             </span>
@@ -56,10 +56,10 @@ const Footer = () => {
                         <span className='thoonihead'>Experience thooni app on</span>
                         <div className='exploremenus'>
                             <Link to={'https://play.google.com/store/apps/details?id=com.thooni.thooni'} target='_blank'>
-                                <img alt='GetItOn' src={GetItOn2} style={{ width: '100px' }} />
+                                <img alt='GetItOn' src={GetItOn2} style={{ width: '140px' }} />
                             </Link>
                             <Link to={'https://apps.apple.com/in/app/thooni/id6452012641'} target='_blank'>
-                                <img alt='GetItOn' src={GetItOn1} style={{ width: '100px' }} />
+                                <img alt='GetItOn' src={GetItOn1} style={{ width: '140px' }} />
                             </Link>
                         </div>
                     </div>
@@ -68,25 +68,25 @@ const Footer = () => {
                     <div className='footerthooni'>
                         <span className='thoonihead'>Social Links</span>
                         <div className='sociallinks'>
-                            <img src={Twitter} alt='Twitter' className='socialmedia' />
+                           {/* <img src={Twitter} alt='Twitter' className='socialmedia' />*/}
                             <img src={Instagram} alt='Instagram' className='socialmedia' />
-                            <img src={Facebook} alt='Facebook' className='socialmedia' />
+                            {/* <img src={Facebook} alt='Facebook' className='socialmedia' />*/}
                         </div>
                     </div>
                 </Col>
             </Row>
             <div className='footerline2' />
             <div className='headcont'>
-                <h2 className='headtxt'>thooni</h2>
+                <h2 className='headtxt'>thooni</h2> 
             </div>
             <div style={{ display: 'inline-block' }}>
                 <div className='reserved'>
                     <span className='reservedtext'>© 2023 Thooni.com. All Rights Reserved.</span>
                     <span className='reservedtext pointer'>
                         <span>
-                            <Link to='/thooni_website/privacypolicy'  style={{ color: 'black', textDecorationLine: 'none' }}>Privacy</Link></span> | <span>
-                            <Link to='/thooni_website/termsservice' style={{ color: 'black', textDecorationLine: 'none' }}>Terms of Service</Link></span> | <span>
-                            <Link to='/thooni_website/returns' style={{ color: 'black', textDecorationLine: 'none' }}>Alterations and Returns</Link></span></span>
+                            <Link to='/thooni_website/privacypolicy' target='_blank'  style={{ color: 'black', textDecorationLine: 'none' }}>Privacy</Link></span> | <span>
+                            <Link to='/thooni_website/termsservice'  target='_blank' style={{ color: 'black', textDecorationLine: 'none' }}>Terms of Service</Link></span> | <span>
+                            <Link to='/thooni_website/returns'  target='_blank' style={{ color: 'black', textDecorationLine: 'none' }}>Alterations and Returns</Link></span></span>
                     <hr className='line' />
                 </div>
             </div>

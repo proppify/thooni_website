@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../../Styles/SubHeader.css';
-import { Col, Row } from 'react-bootstrap';
+import { Col, Row,Navbar, Container, Nav } from 'react-bootstrap';
 import ThooniLogo from '../../Assets/ThooniLogo.svg';
 import { Link } from 'react-router-dom';
 
@@ -21,46 +21,29 @@ const SubHeader = () => {
   };
   return (
     <div className='subHeader'>
-      <Row style={{ alignItems: 'center' }}>
-        <Col xs={12} md={4}>
-          <div className='logoContainer'>
+
+<Navbar expand="lg">    
+        <Container>
+        <Navbar.Brand href="#home">
+        <div className='logoContainer'>
             <Link to='/' className='navtext'>
-              <img src={ThooniLogo} alt='logo' className='logo' />
+              <img src={ThooniLogo} alt='logo' className='logo' /> <span className='ms-2 brand-name'>Thooni</span> 
             </Link>
           </div>
-        </Col>
-        <Col xs={12} md={8}>
-          <div className='navalignment2'>
-            <span>
-              <Link to='/'
-                //
-                // className={activeItem === 'Home' ? 'navItemActive' : 'navtext'}
-                className='navtext'
-                onClick={() => handleItemClick('Home')}
-              >Home</Link>
-            </span>
-            <span>
-              <Link to='/aboutus'
-                className='navtext'
-                // className={activeItem === 'AboutUs' ? 'navItemActive' : 'navtext'}
-                onClick={() => handleItemClick('AboutUs')}>About Us</Link>
-            </span>
-            <span>
-              <Link to='/business'
-                className='navtext'
-                // className={activeItem === 'Business' ? 'navItemActive' : 'navtext'}
-                onClick={() => handleItemClick('Business')}
-              >For Business</Link>
-            </span>
-            <span>
-              <Link onClick={() => { navigateToContact(); handleItemClick('Designer') }}
-                // className={activeItem === 'Designer' ? 'navItemActive' : 'navtext'}
-                className='navtext'
-              >Designer's Advice</Link>
-            </span>
-          </div>
-        </Col>
-      </Row>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav" className='navalignment2'>
+          <Nav>
+            <Link to="/" onClick={() => handleItemClick('Home')} className='navtext'>Home</Link>          
+            <Link to='/aboutus' className='navtext'  onClick={() => handleItemClick('AboutUs')}>About Us</Link>
+            <Link to='/business' className='navtext'  onClick={() => handleItemClick('Business')}>For Business</Link>
+            <Link onClick={() => { navigateToContact(); handleItemClick('Designer') }} className='navtext'>Fashion Advice</Link>
+          </Nav>
+        </Navbar.Collapse>
+        </Container>
+         </Navbar> 
+      
+      
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import CustSays from '../../Assets/CustomerSays.svg';
+import CustSays from '../../Assets/testimonial-img.jpg';
 import Arrow1 from '../../Assets/next_arrow.png';
 import Arrow2 from '../../Assets/next_last.png';
 import Arrow3 from '../../Assets/prev_arrow.png';
@@ -9,20 +9,30 @@ const CustomerSays = () => {
     const [position, setPosition] = useState(0);
     const scrolldata = [
         {
-            "name": 'Anjali Sharma',
+            "name": 'Kavya Reddy',
             "image": CustSays,
-            "details": "I'm thrilled with the Thooni app's personalized clothing options. The app is easy to navigate, the materials are high-quality, and the end results are always stylish and unique."
+            "details": " The Thooni app is a game-changer for custom clothing! It offers a seamless experience, exceptional quality, and the ability to create unique, personalized garments. Highly recommended!"
         },
         {
-            "name": 'Devika Iyer',
+            "name": 'Nithya Nair',
             "image": CustSays,
-            "details": "Thooni app has revolutionized my wardrobe. The app's seamless design process, excellent customer service, and top-notch garments make it my top choice for custom clothing. Highly recommended!"
+            "details": "Thooni app has revolutionized my wardrobe. The app's seamless design process, excellent customer service, and top-notch garments make it my top choice for custom clothing. Highly recommended! "
         },
         {
-            "name": 'Ananya Rao',
+            "name": 'Meera Menon',
+            "image": CustSays,
+            "details": "The Thooni app is a hidden gem in the world of fashion. Its wide selection of customizable clothing, attention to detail, and prompt delivery have made it my favorite go-to app."
+        },
+       
+        {
+            "name": 'Shalini Rajan',
             "image": CustSays,
             "details": "I can't praise the Thooni app enough! It combines creativity, convenience, and quality seamlessly. With every order, I get custom-made clothing that fits perfectly and reflects my personal style."
-        }
+        },
+       
+       
+      
+       
     ]
     const handlePrevClick = () => {
         setPosition(Math.max(position - 1, 0)); // Ensure position doesn't go below 0
@@ -56,12 +66,12 @@ const CustomerSays = () => {
         <div>
             <h3 className='Heartxt1'>HEAR WHAT OUR CUSTOMERS SAY</h3>
             <span className='Heartxt2'>Discover What Our Happy Customers Have to Say About Us!</span>
-            <div style={{ width: '100%', padding: '12px 80px' }}>
+            <div className='tesimonial-main'>
 
                 {/* {scrolldata.map((x,i)=>  */}
-                <div style={{ width: '100%', padding: '60px 0px 0px 80px', background: '#EDF8FF', height: '350px', marginTop: '25px' }}>
+                <div className='testimonial-section'>
                     <div className="Custbanner">
-                        <img src={scrolldata[position]?.image} alt="Custbanner" className="Custbanner-image" />
+                        <div className='customer-img'><img src={scrolldata[position]?.image} alt="Custbanner" className="Custbanner-image" /></div>
                         <div className="Custtext-container">
                             <div style={{ width: '475px', textAlign: 'left', display: 'flex', flexDirection: 'column', gap: '16px' }}>
                                 <span className="Custparagraph">{scrolldata[position]?.details}</span>
@@ -72,7 +82,7 @@ const CustomerSays = () => {
                     </div>
                 </div>
                 {/* )} */}
-                <div style={{ marginTop: '10px', float: 'right', display: 'flex', gap: '12px' }}>
+                <div className='testimonal-btn'>
                     {/* <button onClick={handlePrevClick} disabled={position === 0}>
                         Previous
                     </button> */}
