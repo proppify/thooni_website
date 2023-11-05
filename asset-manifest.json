@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/thooni_website/static/css/main.2f56aa40.css",
-    "main.js": "/thooni_website/static/js/main.6a8aa9b5.js",
+    "main.css": "/thooni_website/static/css/main.83109ab1.css",
+    "main.js": "/thooni_website/static/js/main.81187288.js",
     "static/media/man-striped-shirt-closing-his-buttonier.jpg": "/thooni_website/static/media/man-striped-shirt-closing-his-buttonier.87fe005056c0a49bd542.jpg",
     "static/media/pretty-toddler-sucking-lollipop.jpg": "/thooni_website/static/media/pretty-toddler-sucking-lollipop.a0f9e25e0fbddf26250f.jpg",
     "static/media/young-woman-beautiful-yellow-dress.jpg": "/thooni_website/static/media/young-woman-beautiful-yellow-dress.2ecaf796d91cb9a1d21e.jpg",
@@ -9,14 +9,12 @@
     "static/media/CommingSoon.svg": "/thooni_website/static/media/CommingSoon.44656da99d16f80d547c6b5815568415.svg",
     "static/media/BusinessBg.svg": "/thooni_website/static/media/BusinessBg.f125b8eb08f43c94eb803b5e950468f8.svg",
     "static/media/AboutUs1.svg": "/thooni_website/static/media/AboutUs1.9c119d0d4313714ed98224af115bfd08.svg",
-    "static/media/Hero.png": "/thooni_website/static/media/Hero.0dd728206299ba648e4f.png",
     "static/media/ContactUs.svg": "/thooni_website/static/media/ContactUs.fd76521a8b61f482a61ecaa60788e5f7.svg",
-    "static/media/Hero 5.png": "/thooni_website/static/media/Hero 5.67925afdb2100f4bb8ce.png",
-    "static/media/H1.png": "/thooni_website/static/media/H1.e7a2f520da0514c6e969.png",
     "static/media/Featured1.svg": "/thooni_website/static/media/Featured1.5c54c08ea99715326e6dbcbee5af1f98.svg",
-    "static/media/hero6.png": "/thooni_website/static/media/hero6.74e27de9b7ffb213556b.png",
+    "static/media/Banner_3.png": "/thooni_website/static/media/Banner_3.bc1c7532ecd042129f10.png",
+    "static/media/Banner_2.png": "/thooni_website/static/media/Banner_2.88a4dda271ec921a04fb.png",
+    "static/media/Banner_1.png": "/thooni_website/static/media/Banner_1.0fabf1254c69179987f9.png",
     "static/media/Featured4.svg": "/thooni_website/static/media/Featured4.87f20e1c26a46caaee1282923530be8b.svg",
-    "static/media/H2.png": "/thooni_website/static/media/H2.86c34c20975399560846.png",
     "static/media/Featured3.svg": "/thooni_website/static/media/Featured3.5b091e9dce00551cd0a74edc876035c1.svg",
     "static/media/Benfits1.svg": "/thooni_website/static/media/Benfits1.7fe358ea64f3a0734b4f48d53482e4d3.svg",
     "static/media/PhoneHand.svg": "/thooni_website/static/media/PhoneHand.eede15858ac155bb82affe087a065e3a.svg",
@@ -34,11 +32,11 @@
     "index.html": "/thooni_website/index.html",
     "static/media/Facebook.svg": "/thooni_website/static/media/Facebook.def27774939144a954d5634afee4ba97.svg",
     "static/media/Close - X.svg": "/thooni_website/static/media/Close - X.fa292b095a001f16e21a5e34edbfb82d.svg",
-    "main.2f56aa40.css.map": "/thooni_website/static/css/main.2f56aa40.css.map",
-    "main.6a8aa9b5.js.map": "/thooni_website/static/js/main.6a8aa9b5.js.map"
+    "main.83109ab1.css.map": "/thooni_website/static/css/main.83109ab1.css.map",
+    "main.81187288.js.map": "/thooni_website/static/js/main.81187288.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f56aa40.css",
-    "static/js/main.6a8aa9b5.js"
+    "static/css/main.83109ab1.css",
+    "static/js/main.81187288.js"
   ]
 }
