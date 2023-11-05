@@ -5,7 +5,7 @@ import Download from './Download';
 import BeStylish from './BeStylish';
 import ComingSoon from './ComingSoon';
 import CustomerSays from './CustomerSays';
-import BelowTestimonials from './BelowTestimonials';
+import Faq from './Faq';
 import ContactUs from '../Business/ContactUs';
 import NewFloatingButton from '../../Components/NewFloatingButton';
 
@@ -30,8 +30,8 @@ const Home = () => {
       <div className='mb-150'>
         <CustomerSays />
       </div>
-      <div className='mb-150'>
-       <BelowTestimonials />
+      <div className='mb-150' id='faq'>
+       <Faq />
       </div>
       <div className='mb-150' id='designersadvice'>
         <ContactUs />

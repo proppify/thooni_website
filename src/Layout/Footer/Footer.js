@@ -46,7 +46,7 @@ const Footer = () => {
                                     Alterations & Returns
                                 </Link>
                             </span>
-                            <span className='exploremenutexts' onClick={scrollToFaq}  style={{ cursor: 'pointer' }}><Link to={'/thooni_website/business/#faq'} className='exploremenutextsNolink'>FAQ</Link></span>
+                            <span className='exploremenutexts' onClick={scrollToFaq}  style={{ cursor: 'pointer' }}><Link to={'/thooni_website/#faq'} className='exploremenutextsNolink'>FAQ</Link></span>
                             {/* <span className='exploremenutextsNolink' onClick={scrollToContact} style={{ cursor: 'pointer' }}>Contact Us</span> */}
                         </div>
                     </div>
