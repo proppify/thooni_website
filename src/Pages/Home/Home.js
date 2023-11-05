@@ -31,7 +31,7 @@ const Home = () => {
         <CustomerSays />
       </div>
       <div className='mb-150' id='faq'>
-       <Faq />
+               <Faq />
       </div>
       <div className='mb-150' id='designersadvice'>
         <ContactUs />

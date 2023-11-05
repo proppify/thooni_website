@@ -18,7 +18,7 @@ const Faq = () => {
                 </Col>
                 <Col sm={12}>
                     <div style={{ display: 'flex', alignItems: 'flex-start', marginTop: '12px' }}>
-                        <h5 className='faq2'>Design with confidence: Expert fashion tips at your finger tips!</h5>
+                        <h5 className='faq2' >Design with confidence: Expert fashion tips at your finger tips!</h5>
                     </div>
                 </Col>
                 <Col sm={8}>
