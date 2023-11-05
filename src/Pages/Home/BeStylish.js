@@ -65,7 +65,13 @@ const BeStylish = () => {
                                 <h3 className='stylishtxt1'>Wear Better and Be Stylish</h3>
                                 <h6 className='stylishtxt2'>We have something for everyone</h6>
                                 <span className='stylishtxt3'>At Thooni Custom Clothing, we're all about making your fashion dreams come true. Our talented designers and crafty creators work hard to make clothes that are just for you, showing off your one-of-a-kind style. We promise to give you great quality, new ideas, and keep you happy – we're your go-to friend for custom fashion.</span><br/>
-                                <button className='btn btn-primary btn-sm mt-3'>Read More</button>
+                                <Link to='aboutus' className='btn btn-primary btn-sm mt-3' onClick={() => {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  }}>Read More</Link>
                             </div>
                         </div>
                     </Col> 

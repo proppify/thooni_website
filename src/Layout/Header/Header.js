@@ -5,10 +5,11 @@ import { AiOutlineInstagram } from 'react-icons/ai';
 import { BiLogoFacebookCircle, BiLogoTwitter } from 'react-icons/bi';
 import { Col, Row } from 'react-bootstrap';
 import Alert from '../../Components/Alert';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (<>
-    <Alert message={'Download Thooni App for better experience and win exciting rewards'} color={'#EDF8FF'}/>
+    <Alert message={'Download Thooni app to change your design ideas into reality'} color={'#EDF8FF'}/>
     <div className='wholecontainer'>
       <div className='subcontainer'>
         <Row >
@@ -31,9 +32,12 @@ const Header = () => {
           <Col xs={6} md={4}>
             <div className='textandicons'>
               <span className='numberfont'>Follow Us : </span>
-              <AiOutlineInstagram color='white' size={18}/>
+              <Link to='https://www.instagram.com/thooni.in/' target='_blank'>
+                <AiOutlineInstagram color='white' size={18}/>
+              </Link>
               <BiLogoFacebookCircle color='white' size={18}   className='d-none' />
               <BiLogoTwitter color='white' size={18}  className='d-none' />
+
             </div>
           </Col>
         </Row>

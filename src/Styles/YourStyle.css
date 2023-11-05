@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
-
+.downloadIcons {display: block!important; text-align: left;}
 .heroimg {
     background-color: #9eeaed;
     width: 100%;
@@ -506,7 +506,7 @@
     height: 620px;
 }
 .how-it-work-info{
-    padding:0 50px;
+    padding:0 10px;
 }
 .tesimonial-main{
     width: 100%;
@@ -795,6 +795,13 @@
     .faq2{
         text-align: justify;
     }
+    .downloadText h5, h2 {text-align: center!important;}
+    .downloadIcons {display: block!important; text-align: center;}
+    .navbar{padding: 0px !important;}
+    .wholecontainer {display: none;}
+    .subHeader{padding:0; padding-left: 15px}
+    .subcontainer1 {padding: 0;}
+    .navbar-brand{padding:0}
 }
 
 @media (max-width:580px){

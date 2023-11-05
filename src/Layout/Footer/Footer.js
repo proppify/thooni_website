@@ -36,18 +36,18 @@ const Footer = () => {
                         <span className='thoonihead'>Explore</span>
                         <div className='exploremenus footer-nav'>
                             <span className='exploremenutexts'>
-                                <a href='/aboutus' className='exploremenutextsNolink'>About Us</a>
+                                <a href='/thooni_website/aboutus' className='exploremenutextsNolink'>About Us</a>
                             </span>
                             <span className='exploremenutexts'>
-                                <a href='/business' className='exploremenutextsNolink'>For Business</a>
+                                <a href='/thooni_website/business' className='exploremenutextsNolink'>For Business</a>
                             </span>
                             <span className='exploremenutexts' style={{ cursor: 'pointer' }}>
                                 <Link to={'/thooni_website/returns'} className='exploremenutextsNolink'>
                                     Alterations & Returns
                                 </Link>
                             </span>
-                            <span className='exploremenutexts' onClick={scrollToFaq}  style={{ cursor: 'pointer' }}>FAQ</span>
-                            <span className='exploremenutextsNolink' onClick={scrollToContact} style={{ cursor: 'pointer' }}>Contact Us</span>
+                            <span className='exploremenutexts' onClick={scrollToFaq}  style={{ cursor: 'pointer' }}><Link to={'/thooni_website/business/#faq'} className='exploremenutextsNolink'>FAQ</Link></span>
+                            {/* <span className='exploremenutextsNolink' onClick={scrollToContact} style={{ cursor: 'pointer' }}>Contact Us</span> */}
                         </div>
                     </div>
                 </Col>
@@ -69,7 +69,10 @@ const Footer = () => {
                         <span className='thoonihead'>Social Links</span>
                         <div className='sociallinks'>
                            {/* <img src={Twitter} alt='Twitter' className='socialmedia' />*/}
-                            <img src={Instagram} alt='Instagram' className='socialmedia' />
+                           <Link to='https://www.instagram.com/thooni.in/' target='_blank'>
+                           <img src={Instagram} alt='Instagram' className='socialmedia' />
+              </Link>
+                            
                             {/* <img src={Facebook} alt='Facebook' className='socialmedia' />*/}
                         </div>
                     </div>

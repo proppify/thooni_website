@@ -11,7 +11,7 @@ const Download = () => {
                     <h5 className='downloadbluetxt'>Red Carpet Style on a Budget, Get It with Our App!</h5>
                     <h2 className='downloadblacktxt'>No need for lots of money or your own stylist to get a fancy, red carpet style. Just use our app.
                     </h2>
-                    <div className='d-flex'>
+                    <div className='downloadIcons'>
                     <Link to={'https://play.google.com/store/apps/details?id=com.thooni.thooni'} target='_blank'>
                                 <img alt='GetItOn' src={GetItOn2} style={{ width: '140px' }} />
                             </Link>

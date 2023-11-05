@@ -25,6 +25,16 @@ const CustomerSays = () => {
         },
        
         {
+            "name": 'Devika Iyer',
+            "image": CustSays,
+            "details": "Thooni app has revolutionized my wardrobe. The app's seamless design process, excellent customer service, and top-notch garments make it my top choice for custom clothing. Highly recommended!"
+        },
+        {
+            "name": 'Anaya Rao',
+            "image": CustSays,
+            "details": "As a fashion enthusiast, the Thooni app has become my secret weapon. It offers endless customization possibilities, outstanding craftsmanship, and delivers garments that truly make a statement."
+        },
+        {
             "name": 'Shalini Rajan',
             "image": CustSays,
             "details": "I can't praise the Thooni app enough! It combines creativity, convenience, and quality seamlessly. With every order, I get custom-made clothing that fits perfectly and reflects my personal style."

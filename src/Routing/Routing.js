@@ -14,14 +14,14 @@ import ContactUs from '../Pages/Business/ContactUs';
 const Routing = () => {
     return (
         <Routes > 
-            <Route path="/designersadvice" element={<ContactUs />} />
+            <Route path="/thooni_website/designersadvice" element={<ContactUs />} />
             <Route path="/thooni_website/returns" element={<Returns />} />
             <Route path="/thooni_website/termsservice" element={<TermsService />} />
             <Route path="/thooni_website/privacypolicy" element={<PrivacyPolicy />} />
-            <Route path="/business" element={<Business />} />
-            <Route path="/aboutus" element={<Aboutus />} />
-            <Route path="/thooni_website/" element={<Home />} />
-            <Route path="/" element={<Home />} exact />
+            <Route path="/thooni_website/business" element={<Business />} />
+            <Route path="/thooni_website/aboutus" element={<Aboutus />} />
+            <Route path="/thooni_website/thooni_website/" element={<Home />} />
+            <Route path="/thooni_website/" element={<Home />} exact />
         </Routes>
     )
 }
