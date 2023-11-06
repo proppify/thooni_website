@@ -22,7 +22,7 @@ const YourStyle = () => {
                                 <h5 className='blueheading'>Let your style shine</h5>
                                 <h2 className='boldheading' style={{ margin: '0px 163px 20px 0px' }}>Your Design,<br/>Our Expert Craftsmanship</h2>
                                 <p className='smallsubheading'>Turn Your Fashion Ideas into Stunning Reality with Our Expert Tailoring</p>
-                                <a href="#Stylesh" className='btn btn-primary'>Personalise Your Style</a>
+                                <a href="#download" className='btn btn-primary'>Personalise Your Style</a>
                                 
                             </div>
                         </Carousel.Caption>
@@ -36,7 +36,7 @@ const YourStyle = () => {
                                 <h5 className='blueheading'>Add uniqueness to your daily style</h5>
                                 <h2 className='boldheading' style={{ marginBottom: '20px' }}>Budget-Friendly Custom Clothing</h2>
                                 <span className='smallsubheading' style={{ marginBottom: '20px' }}>Fashion that's made just for you and doesn't cost much.</span>
-                                <a href="#Stylesh" className='btn btn-primary'>Personalise Your Style</a>
+                                <a href="#download" className='btn btn-primary'>Personalise Your Style</a>
                             </div>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -49,7 +49,7 @@ const YourStyle = () => {
                                 <h5 className='blueheading'>Convenience and Comfort Combined</h5>
                                 <h2 className='boldheading' style={{ marginBottom: '20px' }}> Perfect Fit Home Delivered</h2>
                                 <span className='smallsubheading' style={{ marginBottom: '20px' }}>Discover the joy of a perfect fit, conveniently delivered to your home, ensuring comfort and satisfaction.</span>
-                                <a href="#Stylesh" className='btn btn-primary'>Personalise Your Style</a>
+                                <a href="#download" className='btn btn-primary'>Personalise Your Style</a>
                             </div>
                         </Carousel.Caption>
                     </Carousel.Item>

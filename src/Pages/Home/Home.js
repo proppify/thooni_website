@@ -18,7 +18,7 @@ const Home = () => {
       <div className='mb-150'>
         <HowItWorks />
       </div>
-      <div className='mb-150'>
+      <div className='mb-150' id="download">
         <Download />
       </div>
       <div className='mb-150'>
