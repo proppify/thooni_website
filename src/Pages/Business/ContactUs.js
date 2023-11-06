@@ -18,7 +18,7 @@ const ContactUs = () => {
               </div>
           </Col>
           <Col xs={12} md={6}>
-          <Alert variant="success">Thank you for submitting the details, we weill get back to you ASAP!</Alert>
+          <Alert variant="success">Thank you for submitting the details, we will get back to you ASAP!</Alert>
               
           </Col>
       </Row>
@@ -40,8 +40,8 @@ const ContactUs = () => {
                         <input id="name" type="text" name="name" placeholder='Name*' required />
                         <input id="email" type="email" name="email" placeholder='Email*' required />
                         <ValidationError field="email" prefix="Email" errors={state.errors} />
-                        <input id="number" type="text" name="number" placeholder='Contact*' required />
-                        <textarea className='fonttextarea' id="message" rows="4" cols="50" name="message" placeholder='Message' required></textarea>                        
+                        <input id="number" type="text" name="number" placeholder='Contact'  />
+                        <textarea className='fonttextarea' id="message" rows="4" cols="50" name="message" placeholder='Message' ></textarea>                        
                     </div>
                     <PrimaryButton className='btn btn-primary' type="submit" disabled={state.submitting} text={'Submit'} color={'#23A6F0'} />
                
