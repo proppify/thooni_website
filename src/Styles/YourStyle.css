@@ -85,7 +85,7 @@
 
 .HowItWorkImg {
     /* width: 100%; */
-    width: 550px;
+    width: 500px;
     /* height: 610px; */
 }
 .numbandtext {
@@ -98,7 +98,7 @@
 .boldblacktext {
     font-family: "Montserrat", sans-serif;
     color: #252b42;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
     line-height: 18px;
     letter-spacing: 0.2px;
@@ -107,7 +107,7 @@
 .smallblacktext {
     font-family: "Montserrat", sans-serif;
     color: #737373;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0.2px;

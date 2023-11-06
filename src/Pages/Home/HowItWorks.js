@@ -8,7 +8,7 @@ const HowItWorks = () => {
     return (
         <div className='subcontainer'>
             <Row className='align-items-center'>
-            <Col md={6} xl={5}>
+            <Col md={5} xl={5}>
                     <img alt='' src={HowItWork} className='HowItWorkImg' />
                 </Col>
                 {/* <Col sm={8}>
@@ -72,7 +72,7 @@ const HowItWorks = () => {
                         </Row>
                     </div>
                 </Col> */}
-                <Col md={6} xl={7}>
+                <Col md={7} xl={7}>
                     <Row className='how-it-work-info'>
                         <Col sm={12}>
                             <h3 className='headinghow1' style={{marginBottom:'10px'}}>HOW IT WORKS</h3>
@@ -81,7 +81,7 @@ const HowItWorks = () => {
                             <h6 className='headinghow2'>Our Process for Making This a Reality</h6>
                         </Col>
                         <Row className='subhowworkcontainer'>
-                        <Col sm={6} lg={6} xl={4}>
+                        <Col sm={6} lg={6} xl={6} xxl={4} >
                                 <div className='numbandtext'>
                                     <h2 className='blueandtext'>1.</h2>
                                     <div className='textandtext'>
@@ -90,7 +90,7 @@ const HowItWorks = () => {
                                     </div>
                                 </div>
                             </Col>
-                            <Col sm={6} lg={6} xl={4}>
+                            <Col sm={6} lg={6} xl={6} xxl={4}>
                                 <div className='numbandtext'>
                                     <h2 className='blueandtext'>2.</h2>
                                     <div className='textandtext'>
@@ -99,7 +99,7 @@ const HowItWorks = () => {
                                     </div>
                                 </div>
                             </Col>
-                            <Col sm={6} lg={6} xl={4}>
+                            <Col sm={6} lg={6} xl={6} xxl={4}>
                                 <div className='numbandtext'>
                                     <h2 className='blueandtext'>3.</h2>
                                     <div className='textandtext'>
@@ -108,7 +108,7 @@ const HowItWorks = () => {
                                     </div>
                                 </div>
                             </Col>
-                           <Col sm={6} lg={6} xl={4}>
+                           <Col sm={6} lg={6} xl={6} xxl={4}>
                                 <div className='numbandtext'>
                                     <h2 className='blueandtext'>4.</h2>
                                     <div className='textandtext'>
@@ -117,7 +117,7 @@ const HowItWorks = () => {
                                     </div>
                                 </div>
                             </Col>
-                            <Col lg={6} xl={4}>
+                            <Col lg={6} xl={6} xxl={4}>
                                 <div className='numbandtext'>
                                     <h2 className='blueandtext'>5.</h2>
                                     <div className='textandtext'>

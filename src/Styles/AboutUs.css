@@ -323,7 +323,9 @@
     .wedocontainer{
         margin-bottom: 50px;
     }
-    
+    .tab-content{
+        min-height: auto;
+    }
 }
 
 @media (max-width:560px){

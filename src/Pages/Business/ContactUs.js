@@ -31,7 +31,7 @@ const ContactUs = () => {
     }
     return (
         <div>
-            <Row className="faq0">
+            <Row className="faq0 m-0">
             <Col sm={12} >
                     <div style={{ display: 'flex', alignItems: 'flex-start', marginTop: '12px', marginBottom: '12px' }}>
                         <span className='faq1'>Contact Us</span>
