@@ -307,6 +307,23 @@
         font-weight: 700;
         line-height: 38px
     }
+    .imagegirl{
+        display: none;
+    }
+    .imageposi2{
+        position: relative;
+        text-align: center;
+    }
+    .imageposi2 img{
+        height: 300px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .tab-container,
+    .wedocontainer{
+        margin-bottom: 50px;
+    }
+    
 }
 
 @media (max-width:560px){
