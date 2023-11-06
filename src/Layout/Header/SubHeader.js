@@ -21,7 +21,7 @@ const SubHeader = () => {
 
   const handleItemClick = (itemName) => {
     setActiveItem(itemName);
-    collapseRef.current.setAttribute("class", "navbar-collapse collapse");
+   // collapseRef.current.setAttribute("class", "navbar-collapse collapse");
   };
   
   return (
