@@ -11,7 +11,7 @@ import Alert from 'react-bootstrap/Alert';
 const ContactUs = () => {
     const [mobile, setmobile] = useState("");
     const [isError, setIsError] = useState(false);
-    const pattern = new RegExp(/^\d{10,10}$/);
+    const pattern = new RegExp(/^([+]\d{2}[ ])?\d{10}$/);
     const [state, handleSubmit] = useForm('mnqkawqk');
     if (state.succeeded) {
       return <div className='contactcontainer' id='designersadvice'>

@@ -12,7 +12,7 @@ const SubHeader = () => {
     contactSection?.scrollIntoView({ behavior: 'smooth' });
   };
   const navigateToContact = () => {
-    window.location.href = '/thooni_website/designersadvice';
+    window.location.href = '/designersadvice';
   };
 
 
