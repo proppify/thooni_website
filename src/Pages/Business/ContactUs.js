@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from "react";
 import '../../Styles/Business.css';
 import { Col, Row } from 'react-bootstrap';
 import ContactUsDone from '../../Assets/ContactUs.svg';
@@ -6,7 +6,12 @@ import PrimaryButton from '../../Components/PrimaryButton';
 import { ValidationError, useForm } from '@formspree/react';
 import Alert from 'react-bootstrap/Alert';
 
+
+
 const ContactUs = () => {
+    const [mobile, setmobile] = useState("");
+    const [isError, setIsError] = useState(false);
+    const pattern = new RegExp(/^\d{10,10}$/);
     const [state, handleSubmit] = useForm('mnqkawqk');
     if (state.succeeded) {
       return <div className='contactcontainer' id='designersadvice'>
@@ -40,7 +45,14 @@ const ContactUs = () => {
                         <input id="name" type="text" name="name" placeholder='Name*' required />
                         <input id="email" type="email" name="email" placeholder='Email*' required />
                         <ValidationError field="email" prefix="Email" errors={state.errors} />
-                        <input id="number" type="text" name="number" placeholder='Contact'  />
+                        <input  maxlength = "10" id="number" type="number" name="number" placeholder='Contact' onChange={(e) => {
+                    setmobile(e.target.value);
+                    if (!pattern.test(e.target.value))
+                        setIsError(true);
+                    else setIsError(false);
+                }} 
+                 
+                /> <small className="text-danger d-block text-start position-relative" style={{top:'-10px'}}>{isError ? "Please enter a valid 10 digit number" : ''}</small>
                         <textarea className='fonttextarea' id="message" rows="4" cols="50" name="message" placeholder='Message' ></textarea>                        
                     </div>
                     <PrimaryButton className='btn btn-primary' type="submit" disabled={state.submitting} text={'Submit'} color={'#23A6F0'} />
