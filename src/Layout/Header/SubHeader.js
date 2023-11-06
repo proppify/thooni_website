@@ -1,10 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useRef} from 'react';
 import '../../Styles/SubHeader.css';
 import { Col, Row,Navbar, Container, Nav } from 'react-bootstrap';
 import ThooniLogo from '../../Assets/ThooniLogo.svg';
 import { Link } from 'react-router-dom';
 
 const SubHeader = () => {
+  const collapseRef = useRef(null);
+
+  
   const [activeItem, setActiveItem] = useState('Home');
 
   const scrollToContact = () => {
@@ -18,7 +21,9 @@ const SubHeader = () => {
 
   const handleItemClick = (itemName) => {
     setActiveItem(itemName);
+    collapseRef.current.setAttribute("class", "navbar-collapse collapse");
   };
+  
   return (
     <div className='subHeader'>
 
@@ -31,13 +36,16 @@ const SubHeader = () => {
             </Link>
           </div>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" data-toggle="collapse"
+        data-target="#basic-navbar-nav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"/>
         <Navbar.Collapse id="basic-navbar-nav" className='navalignment2'>
           <Nav>
             <Link to="/" onClick={() => handleItemClick('Home')} className='navtext'>Home</Link>          
             <Link to='/aboutus' className='navtext'  onClick={() => handleItemClick('AboutUs')}>About Us</Link>
-            <Link to='/business' className='navtext'  onClick={() => handleItemClick('Business')}>For Business</Link>
-            <Link to='/designersadvice' className='navtext' onClick={() => handleItemClick('Home')}>Fashion Advice</Link>
+            <Link to='/business' className='navtext'  onClick={() => handleItemClick('Business')} >For Business</Link>
+            <Link to='/designersadvice' className='navtext' onClick={() => handleItemClick('Home')} >Fashion Advice</Link>
           </Nav>
         </Navbar.Collapse>
         </Container>
