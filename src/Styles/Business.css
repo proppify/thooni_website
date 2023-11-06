@@ -287,6 +287,14 @@ input[type="text"]:focus {
 .owncard{
     margin-bottom: 15px;
 }
+.contactForm .contactinputs input{
+    width: 100%;
+    padding: 4px 2px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    box-sizing: border-box;
+    background-color: transparent;
+}
 @media (max-width:1480px){
     .featureSubContainer2 {
         max-width: 1080px;

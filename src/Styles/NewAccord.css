@@ -17,3 +17,9 @@
     line-height: 32px;
     text-align: left;
 }
+@media (max-width:992px){
+.accordTitle {
+    font-size: 18px;
+    text-align: left;
+}
+}

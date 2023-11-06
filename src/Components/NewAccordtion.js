@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Plus from '../Assets/Vector.png';
+import Minus from '../Assets/minus.png';
 import '../Styles/NewAccord.css'
 
 const NewAccordion = ({ title, content }) => {
@@ -24,7 +25,7 @@ const NewAccordion = ({ title, content }) => {
                 onClick={toggleAccordion}
             >
                 <div className='accordTitle'>{title}</div>
-                <div>{isExpanded ? '-' : <img alt='' src={Plus} />}</div>
+                <div className='accBTN'>{isExpanded ? <span><img alt='' src={Minus} /></span> : <img alt='' src={Plus} />}</div>
             </div>
             {isExpanded && (
                 <div style={{ padding: '10px' }}>
