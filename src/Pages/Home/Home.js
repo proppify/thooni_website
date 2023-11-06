@@ -30,10 +30,11 @@ const Home = () => {
       <div className='mb-150'>
         <CustomerSays />
       </div>
-      <div className='mb-150' id='faq'>
+      <div className='' id='faq'>
                <Faq />
       </div>
       <div className='mb-150' id='designersadvice'>
+        
         <ContactUs />
       </div>
     </div>

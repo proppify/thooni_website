@@ -30,8 +30,29 @@ const ContactUs = () => {
   </div>;
     }
     return (
+        <div>
+            <Row className="faq0">
+            <Col sm={12} >
+                    <div style={{ display: 'flex', alignItems: 'flex-start', marginTop: '12px', marginBottom: '12px' }}>
+                        <span className='faq1'>Contact Us</span>
+                    </div>
+                </Col>
+            <Col sm={12}>
+                    <div style={{ display: 'flex', alignItems: 'flex-start', marginTop: '12px' }}>
+                        <h5 className='faq2'>Design with confidence: Expert fashion tips at your finger tips!</h5>
+                    </div>
+                </Col>
+                <Col sm={12}>
+                    <div style={{ display: 'flex', alignItems: 'flex-start', width: '75%' }}>
+                        <span className='faq3'>Would you like fashion tips while designing? Our experts are ready to assist you.</span>
+                    </div>
+                </Col>
+            </Row>
         <div className='contactcontainer' id='designersadvice'>
+            
             <Row style={{ backgroundColor: '#EDF8FF' }} >
+            
+            
                 <Col xs={12} md={6}>
                     <div className="contactimage-container1">
                         <img src={ContactUsDone} alt="card" className="contact2Img" />
@@ -62,6 +83,7 @@ const ContactUs = () => {
                     
                 </Col>
             </Row>
+        </div>
         </div>
     )
 }
