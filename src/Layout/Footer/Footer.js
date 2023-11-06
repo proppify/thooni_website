@@ -36,13 +36,13 @@ const Footer = () => {
                         <span className='thoonihead'>Explore</span>
                         <div className='exploremenus footer-nav'>
                             <span className='exploremenutexts'>
-                                <a href='/thooni_website/aboutus' className='exploremenutextsNolink'>About Us</a>
+                                <a href='/aboutus' className='exploremenutextsNolink'>About Us</a>
                             </span>
                             <span className='exploremenutexts'>
-                                <a href='/thooni_website/business' className='exploremenutextsNolink'>For Business</a>
+                                <a href='/business' className='exploremenutextsNolink'>For Business</a>
                             </span>
                             <span className='exploremenutexts' style={{ cursor: 'pointer' }}>
-                                <Link to={'/thooni_website/returns'} className='exploremenutextsNolink'>
+                                <Link to={'/returns'} className='exploremenutextsNolink' target='_blank'>
                                     Alterations & Returns
                                 </Link>
                             </span>
@@ -87,9 +87,9 @@ const Footer = () => {
                     <span className='reservedtext'>© 2023 Thooni.com. All Rights Reserved.</span>
                     <span className='reservedtext pointer'>
                         <span>
-                            <Link to='/thooni_website/privacypolicy' target='_blank'  style={{ color: 'black', textDecorationLine: 'none' }}>Privacy</Link></span> | <span>
-                            <Link to='/thooni_website/termsservice'  target='_blank' style={{ color: 'black', textDecorationLine: 'none' }}>Terms of Service</Link></span> | <span>
-                            <Link to='/thooni_website/returns'  target='_blank' style={{ color: 'black', textDecorationLine: 'none' }}>Alterations and Returns</Link></span></span>
+                            <Link to='/privacypolicy' target='_blank'  style={{ color: 'black', textDecorationLine: 'none' }}>Privacy</Link></span> | <span>
+                            <Link to='/termsservice'  target='_blank' style={{ color: 'black', textDecorationLine: 'none' }}>Terms of Service</Link></span> | <span>
+                            <Link to='/returns'  target='_blank' style={{ color: 'black', textDecorationLine: 'none' }}>Alterations and Returns</Link></span></span>
                     <hr className='line' />
                 </div>
             </div>

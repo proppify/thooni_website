@@ -34,9 +34,9 @@ const SubHeader = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className='navalignment2'>
           <Nav>
-            <Link to="/thooni_website/" onClick={() => handleItemClick('Home')} className='navtext'>Home</Link>          
-            <Link to='/thooni_website/aboutus' className='navtext'  onClick={() => handleItemClick('AboutUs')}>About Us</Link>
-            <Link to='/thooni_website/business' className='navtext'  onClick={() => handleItemClick('Business')}>For Business</Link>
+            <Link to="/" onClick={() => handleItemClick('Home')} className='navtext'>Home</Link>          
+            <Link to='/aboutus' className='navtext'  onClick={() => handleItemClick('AboutUs')}>About Us</Link>
+            <Link to='/business' className='navtext'  onClick={() => handleItemClick('Business')}>For Business</Link>
             <Link onClick={() => { navigateToContact(); handleItemClick('Designer') }} className='navtext'>Fashion Advice</Link>
           </Nav>
         </Navbar.Collapse>
