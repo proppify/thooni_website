@@ -37,7 +37,7 @@ const SubHeader = () => {
             <Link to="/" onClick={() => handleItemClick('Home')} className='navtext'>Home</Link>          
             <Link to='/aboutus' className='navtext'  onClick={() => handleItemClick('AboutUs')}>About Us</Link>
             <Link to='/business' className='navtext'  onClick={() => handleItemClick('Business')}>For Business</Link>
-            <Link onClick={() => { navigateToContact(); handleItemClick('Designer') }} className='navtext'>Fashion Advice</Link>
+            <Link to='/designersadvice' className='navtext' onClick={() => handleItemClick('Home')}>Fashion Advice</Link>
           </Nav>
         </Navbar.Collapse>
         </Container>

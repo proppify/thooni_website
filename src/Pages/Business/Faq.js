@@ -12,15 +12,15 @@ const Faq = () => {
         <div className='faq0'>
             <Row >
                 <Col sm={12}>
-                    <div style={{ display: 'flex', alignItems: 'flex-start', marginTop: '12px' }}>
+                    <div style={{ display: 'flex', alignItems: 'flex-start', marginTop: '12px', marginBottom: '12px' }}>
                         <span className='faq1'>Frequestly Asked Questions</span>
                     </div>
                 </Col>
-                <Col sm={12}>
+                {/* <Col sm={12}>
                     <div style={{ display: 'flex', alignItems: 'flex-start', marginTop: '12px' }}>
                         <h5 className='faq2'>Design with confidence: Expert fashion tips at your finger tips!</h5>
                     </div>
-                </Col>
+                </Col> */}
                 <Col sm={8}>
                     <div style={{ display: 'flex', alignItems: 'flex-start', width: '75%' }}>
                         <span className='faq3'>Would you like fashion tips while designing? Our experts are ready to assist you.</span>
