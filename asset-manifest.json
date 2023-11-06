@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/thooni_website/static/css/main.0edc9e82.css",
-    "main.js": "/thooni_website/static/js/main.cf858f83.js",
+    "main.css": "/thooni_website/static/css/main.144295e1.css",
+    "main.js": "/thooni_website/static/js/main.211afed1.js",
     "static/media/man-striped-shirt-closing-his-buttonier.jpg": "/thooni_website/static/media/man-striped-shirt-closing-his-buttonier.87fe005056c0a49bd542.jpg",
     "static/media/pretty-toddler-sucking-lollipop.jpg": "/thooni_website/static/media/pretty-toddler-sucking-lollipop.a0f9e25e0fbddf26250f.jpg",
     "static/media/young-woman-beautiful-yellow-dress.jpg": "/thooni_website/static/media/young-woman-beautiful-yellow-dress.2ecaf796d91cb9a1d21e.jpg",
@@ -32,11 +32,11 @@
     "index.html": "/thooni_website/index.html",
     "static/media/Facebook.svg": "/thooni_website/static/media/Facebook.def27774939144a954d5634afee4ba97.svg",
     "static/media/Close - X.svg": "/thooni_website/static/media/Close - X.fa292b095a001f16e21a5e34edbfb82d.svg",
-    "main.0edc9e82.css.map": "/thooni_website/static/css/main.0edc9e82.css.map",
-    "main.cf858f83.js.map": "/thooni_website/static/js/main.cf858f83.js.map"
+    "main.144295e1.css.map": "/thooni_website/static/css/main.144295e1.css.map",
+    "main.211afed1.js.map": "/thooni_website/static/js/main.211afed1.js.map"
   },
   "entrypoints": [
-    "static/css/main.0edc9e82.css",
-    "static/js/main.cf858f83.js"
+    "static/css/main.144295e1.css",
+    "static/js/main.211afed1.js"
   ]
 }
